@@ -1,0 +1,898 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src https://kit.fontawesome.com https://cdnjs.cloudflare.com https://www.google.com https://www.gstatic.com/ https://cse.google.com http://cse.google.com https://partner.googleadservices.com/ https://cdnjs.cloudflare.com/ajax/libs/tocbot/ https://www.googletagmanager.com 'self' 'unsafe-eval' 'unsafe-inline'; style-src cdnjs.cloudflare.com cse.google.com www.google.com ka-f.fontawesome.com fonts.googleapis.com 'self' 'unsafe-inline'" >
+    <title>Expensify Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="icon" type="image/png" href="/assets/images/expensify-logo-round.png">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.css">
+
+    <script src="https://kit.fontawesome.com/263e5e8608.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script defer src="/assets/js/platform-tabs.js"></script>
+    <script defer src="/assets/js/selector.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=4149bc31c5c314a1a"></script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-TQBQW7CR');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- SEO tags -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Netsuite Troubleshooting | Expensify Help</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Netsuite Troubleshooting" />
+<meta name="author" content="Expensify" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Troubleshoot common NetSuite sync and export errors." />
+<meta property="og:description" content="Troubleshoot common NetSuite sync and export errors." />
+<link rel="canonical" href="http://localhost:4000/articles/expensify-classic/connections/netsuite/Netsuite-Troubleshooting.html" />
+<meta property="og:url" content="http://localhost:4000/articles/expensify-classic/connections/netsuite/Netsuite-Troubleshooting.html" />
+<meta property="og:site_name" content="Expensify Help" />
+<meta property="og:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="twitter:title" content="Netsuite Troubleshooting" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Expensify"},"description":"Troubleshoot common NetSuite sync and export errors.","headline":"Netsuite Troubleshooting","image":"http://localhost:4000/assets/images/og-preview-image.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/expensify-help.svg"},"name":"Expensify"},"url":"http://localhost:4000/articles/expensify-classic/connections/netsuite/Netsuite-Troubleshooting.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBQW7CR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="lhn">
+
+        <div class="lhn-header">
+            <div class="flex">
+                <div id="header-button">
+                    <img id="angle-up-icon" src="/assets/images/arrow-up.svg" class="base-icon hide"></img>
+                    <img id="bars-icon" src="/assets/images/menu.svg" class="base-icon"></img>
+                </div>
+                <div>
+                    <a href="/">
+                        <img src="/assets/images/expensify-help.svg" class="logo" />
+                    </a>
+                </div>
+                <!-- Search icons that'll open the Sidebar Search sections -->
+                <div class="search-icon">
+    <a onclick="openSidebar()" id="toggle-search-open">
+        <img src="/assets/images/search.svg" class="base-icon" />
+    </a>
+</div>
+
+            </div>
+        </div>
+
+        <!-- Sidebar Search sections -->
+        <div id="sidebar-layer">
+    <div id="sidebar-search" class="sidebar">
+        <div class="flex searchbar-title-wrapper">
+            <a id="toggle-search-close">
+                <img src="/assets/images/back-left.svg" class="base-icon" />
+            </a>
+            <h4 class="search-title">Search</h4>
+        </div>
+        <!-- As the search box is being managed by Embed script from Google, the way search work is on via on Enter / Search Icon -->
+        <div class="gcse-searchbox" data-enableHistory="false"></div>
+        <div class="gcse-searchresults"></div>
+    </div>
+</div>
+
+
+        <!-- LHN content (Main navigation tree or Article TOC) -->
+        <div id="lhn-content">
+            
+                <div id="back-button" class="icon-with-link">
+                    <img src="/assets/images/back-left.svg" class="base-icon"></img>
+                    <div class="link">Back</div>
+                </div>
+                <div class="article-toc"></div>
+            
+        </div>
+    </div>
+
+    <div id="content-area">
+
+        <div id="article-content">
+            <!-- Article title (only shown in article pages) -->
+            
+            <div class="title-platform-tabs">
+                <h1 class="title">
+                    Netsuite Troubleshooting
+                </h1>
+                <div id="platform-tabs">
+                </div>
+            </div>
+            <div class="article-toc-content article">
+                <h1 id="overview-of-netsuite-troubleshooting">Overview of NetSuite Troubleshooting</h1>
+<p>Synchronizing and exporting data between Expensify and NetSuite can streamline your financial processes, but occasionally, users may encounter errors that prevent a smooth integration. These errors often arise from discrepancies in settings, missing data, or configuration issues within NetSuite or Expensify.</p>
+
+<p>This troubleshooting guide aims to help you identify and resolve common sync and export errors, ensuring a seamless connection between your financial management systems. By following the step-by-step solutions provided for each specific error, you can quickly address issues and maintain accurate and efficient expense reporting and data management.</p>
+
+<h1 id="expensierror-ns0005-please-enter-values-for-department-location-or-class">ExpensiError NS0005: Please enter value(s) for Department, Location or Class</h1>
+
+<p>This error occurs when the classification (like Location) is required at the header level of your transaction form in NetSuite.</p>
+
+<p>For expense reports and journal entries, NetSuite uses classifications from the employee record default. Expensify only exports this information at the line item level.</p>
+
+<p>For vendor bills, these classifications can’t be mandatory because we use the vendor record instead of the employee record, and vendor records don’t have default classifications.</p>
+
+<p><strong>Vendor Bills:</strong>
+When exporting as a Vendor Bill, we pull from the vendor record, not the employee. Therefore, employee defaults don’t apply at the header (“main”) level. This error appears if your NetSuite transaction form requires those fields.</p>
+
+<h2 id="how-to-fix-expensierror-ns0005">How to Fix ExpensiError NS0005</h2>
+<ol>
+  <li>Go to <strong>Customization &gt; Forms &gt; Transaction Forms</strong>.</li>
+  <li>Click <strong>“Edit”</strong> on your preferred vendor bill form.</li>
+  <li>Go to <strong>Screen Fields &gt; Main</strong>.</li>
+  <li>Uncheck both <strong>“Show”</strong> and <strong>“Mandatory”</strong> for the listed fields in your error message.</li>
+  <li>Sync the workspace connection in Expensify (<strong>Settings &gt; Workspaces &gt; Workspace Name &gt; Connections &gt; Sync</strong>).</li>
+  <li>Attempt the export again.</li>
+</ol>
+
+<p><strong>Journal Entries and Expense Reports:</strong>
+If you see this error when exporting a Journal Entry or Expense Report, it might be because the report submitter doesn’t have default settings for Departments, Classes, or Locations.</p>
+
+<p><strong>To fix this:</strong></p>
+<ol>
+  <li>Go to <strong>Lists &gt; Employees</strong> in NetSuite.</li>
+  <li>Click <strong>“Edit”</strong> next to the employee’s name who submitted the report.</li>
+  <li>Scroll down to the <strong>Classification</strong> section.</li>
+  <li>Select a default <strong>Department</strong>, <strong>Class</strong>, and <strong>Location</strong> for the employee.</li>
+  <li>Click <strong>Save</strong>.</li>
+  <li>Sync your NetSuite connection in Expensify.</li>
+</ol>
+
+<h1 id="expensierror-ns0012-currency-does-not-exist-in-netsuite">ExpensiError NS0012: Currency Does Not Exist In NetSuite</h1>
+
+<p><strong>Scenario One:</strong> When dealing with foreign transactions, Expensify sends the conversion rate and currency of the original expense to NetSuite. If the currency isn’t listed in your NetSuite subsidiary, you’ll see an error message saying the currency does not exist in NetSuite.</p>
+
+<p><strong>To fix this:</strong></p>
+<ol>
+  <li>Ensure the currency in Expensify matches what’s in your NetSuite subsidiary.</li>
+  <li>If you see an error saying ‘The currency X does not exist in NetSuite’, re-sync your connection to NetSuite through the workspace admin section in Expensify.</li>
+  <li>Try exporting again.</li>
+</ol>
+
+<p><strong>Scenario Two:</strong> This error can happen if you’re using a non-OneWorld NetSuite instance and exporting a currency other than EUR, GBP, USD, or CAD.</p>
+
+<p><strong>To fix this:</strong></p>
+<ol>
+  <li>Head to NetSuite.</li>
+  <li>Go to <strong>Setup &gt; Enable Features</strong>.</li>
+  <li>Check the <strong>Multiple Currencies</strong> box.</li>
+</ol>
+
+<p>Once you’ve done this, you can add the offending currency by searching <strong>New Currencies</strong> in the NetSuite global search.</p>
+
+<h1 id="expensierror-ns0021-invalid-tax-code-reference-key">ExpensiError NS0021: Invalid tax code reference key</h1>
+
+<p>This error usually indicates an issue with the Tax Group settings in NetSuite, which can arise from several sources.</p>
+
+<h4 id="tax-group-to-tax-code-mapping">Tax Group to Tax Code Mapping</h4>
+<p>If a Tax Code on Sales Transactions is mapped to a Tax Group, an error will occur. To fix this, the Tax Code must be mapped to a Tax Code on Purchase Transactions instead.</p>
+
+<p>To verify if a Tax Code is for Sales or Purchase transactions, view the relevant Tax Code(s).</p>
+
+<p><strong>For Australian Taxes:</strong>
+Ensure your Tax Groups are mapped correctly:</p>
+<ul>
+  <li><strong>GST 10%</strong> to <strong>NCT-AU</strong> (not the Sales Transaction Tax Code TS-AU)</li>
+  <li><strong>No GST 0%</strong> to <strong>NCF-AU</strong> (not the Sales Transaction Tax Code TFS-AU)</li>
+</ul>
+
+<h4 id="tax-group-type">Tax Group Type</h4>
+<p>Tax Groups can represent different types of taxes. For compatibility with Expensify, ensure the tax type is set to GST/VAT.</p>
+
+<h4 id="enable-tax-groups">Enable Tax Groups</h4>
+<p>Some subsidiaries require you to enable Tax Groups. Go to <strong>Set Up Taxes</strong> for the subsidiary’s country and ensure the Tax Code lists include both Tax Codes and Tax Groups.</p>
+
+<h1 id="expensierror-ns0023-employee-does-not-exist-in-netsuite-invalid-employee">ExpensiError NS0023: Employee Does Not Exist in NetSuite (Invalid Employee)</h1>
+
+<p>This can happen if the employee’s subsidiary in NetSuite doesn’t match what’s listed in Expensify.</p>
+
+<h2 id="how-to-fix-expensierror-ns0023">How to Fix ExpensiError NS0023</h2>
+<ol>
+  <li><strong>Check the Employee’s Subsidiary</strong>
+    <ul>
+      <li>Go to the employee record in NetSuite.</li>
+      <li>Confirm the employee’s subsidiary matches what’s listed as the subsidiary at the workspace level.</li>
+      <li>To find this in Expensify navigate to <strong>Settings &gt; Workspaces &gt; Workspace Name &gt; Connections &gt; Configure</strong>.</li>
+      <li>If the subsidiaries don’t match, update the subsidiary in Expensify to match what’s listed in NetSuite.</li>
+      <li>Sync the NetSuite connection in Expensify.</li>
+    </ul>
+  </li>
+  <li><strong>Verify Access Restrictions:</strong>
+    <ul>
+      <li>Go to <strong>Lists &gt; Employees &gt; Employees &gt; [Select Employee] &gt; Edit &gt; Access</strong>.</li>
+      <li>Uncheck <strong>Restrict Access to Expensify</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Additional Checks:</strong>
+    <ul>
+      <li>Ensure the email on the employee record in NetSuite matches the email address of the report submitter in Expensify.</li>
+      <li>In NetSuite, make sure the employee’s hire date is in the past and/or the termination date is in the future.</li>
+    </ul>
+  </li>
+  <li><strong>Currency Match for Journal Entries:</strong>
+    <ul>
+      <li>If exporting as Journal Entries, ensure the currency for the NetSuite employee record, NetSuite subsidiary, and Expensify policy all match.</li>
+      <li>In NetSuite, go to the <strong>Human Resources</strong> tab &gt; <strong>Expense Report Currencies</strong>, and add the subsidiary/policy currency if necessary.</li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="expensierror-ns0024-invalid-customer-or-project-tag">ExpensiError NS0024: Invalid Customer or Project Tag</h1>
+
+<p>Employees must be listed as a resource on the customer/project in NetSuite to be able to apply it to an expense. If that isn’t set up in NetSuite, you can run into this error.</p>
+
+<h2 id="how-to-fix-expensierror-ns0024">How to Fix ExpensiError NS0024</h2>
+
+<ol>
+  <li><strong>Ensure Employee Access:</strong>
+    <ul>
+      <li>In NetSuite, go to <strong>Lists &gt; Relationships &gt; Customer/Projects</strong>.</li>
+      <li>Click <strong>Edit</strong> next to the desired Customer/Project.</li>
+      <li>Click <strong>Resources</strong>, select the Employee from the drop-down menu, click <strong>Add</strong>, then <strong>Save</strong> your changes.</li>
+    </ul>
+  </li>
+  <li><strong>Sync with Expensify:</strong>
+    <ul>
+      <li>In Expensify, go to <strong>Settings &gt; Workspaces &gt; [Workspace Name] &gt; NetSuite &gt; Sync Now</strong>.</li>
+      <li>Attempt to export again.</li>
+    </ul>
+  </li>
+  <li><strong>Remove Restriction for a Specific Customer/Project (Optional):</strong>
+    <ul>
+      <li>In NetSuite, edit the customer/project.</li>
+      <li>Go to <strong>Preferences</strong>, then uncheck <strong>Limit time and expenses to resources</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Remove Restrictions for All Projects:</strong>
+    <ul>
+      <li>In NetSuite, go to <strong>Setup &gt; Accounting &gt; Accounting Preferences &gt; Time &amp; Expenses</strong>.</li>
+      <li>Uncheck <strong>Show Projects Only For Time And Expense Entry</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Enable Cross-Subsidiary Customers/Projects in Expensify (Optional):</strong>
+    <ul>
+      <li>Go to <strong>Settings &gt; Workspaces &gt; Group &gt; [Workspace Name] &gt; Connections &gt; NetSuite &gt; Configure &gt; Advanced</strong>.</li>
+      <li>Enable <strong>Cross-Subsidiary Customers/Projects</strong> to remove the requirement for the employee’s subsidiary and the customer’s subsidiary to match.</li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="expensierror-ns0034-this-record-already-exists">ExpensiError NS0034: This record already exists</h1>
+
+<p>This error occurs when the report in question was already exported to NetSuite.</p>
+
+<h2 id="how-to-fix-expensierror-ns0034">How to fix ExpensiError NS0034</h2>
+<ol>
+  <li><strong>Check for the existing Report in NetSuite:</strong>
+    <ul>
+      <li>If the report already exists in NetSuite but has been edited in Expensify, you need to delete the report in NetSuite.</li>
+    </ul>
+  </li>
+  <li><strong>Find the Report ID in Expensify:</strong>
+    <ul>
+      <li>Locate the Report ID in Expensify under the Details section in the top right corner of the report.</li>
+    </ul>
+  </li>
+  <li><strong>Search for the Report ID in NetSuite:</strong>
+    <ul>
+      <li>Use the Global Search Box in NetSuite to find the report using the Report ID.</li>
+    </ul>
+  </li>
+  <li><strong>Delete the Report in NetSuite:</strong>
+    <ul>
+      <li>In NetSuite, click <em><strong>Edit &gt; Actions &gt; Delete</strong></em> to remove the report.</li>
+    </ul>
+  </li>
+  <li><strong>Re-export the Report from Expensify to NetSuite:</strong>
+    <ul>
+      <li>After deleting the report in NetSuite, re-export it from Expensify to NetSuite.</li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="expensierror-ns0046-billable-expenses-not-coded-with-a-netsuite-customer-or-billable-project">ExpensiError NS0046: Billable Expenses Not Coded with a NetSuite Customer or Billable Project</h1>
+
+<p>NetSuite requires billable expenses to be assigned to a Customer or a Project that is configured as billable to a Customer. If this is not set up correctly in NetSuite, this error can occur.</p>
+
+<h2 id="how-to-fix-expensierror-ns0046">How to Fix ExpensiError NS0046</h2>
+<ol>
+  <li><strong>Access the Report in Expensify:</strong>
+    <ul>
+      <li>Go to the Expensify website and open the report.</li>
+    </ul>
+  </li>
+  <li>Click the <strong>Details</strong> icon in the upper-left corner of the report.</li>
+  <li>Select the following options (this allows you to easily see which expenses are flagged as billable but don’t have a valid customer tagged):
+    <ul>
+      <li><strong>View:</strong> Details</li>
+      <li><strong>Group by:</strong> Tag</li>
+      <li><strong>Split report by:</strong> Billable</li>
+    </ul>
+  </li>
+  <li><strong>Check Billable Expenses:</strong>
+    <ul>
+      <li>Click on each expense in the Billable section of the report.</li>
+      <li>Ensure that the Customer or Project tag field is present.</li>
+      <li>Verify that there are no violations and that a value has been applied to the field.</li>
+    </ul>
+  </li>
+  <li>Make any necessary adjustments to the billable expenses and try the export again.</li>
+</ol>
+
+<h1 id="expensierror-ns0059-a-credit-card-account-has-not-been-selected-for-corporate-card-expenses">ExpensiError NS0059: A credit card account has not been selected for corporate card expenses.</h1>
+
+<p><strong>To resolve this error:</strong></p>
+<ol>
+  <li>Log into NetSuite as an admin.</li>
+  <li>Type “Page: Subsidiaries” in the global search box and select the subsidiary you will export to.</li>
+  <li>Under the Preferences tab of the subsidiary, locate the field: Default Account for Corporate Card Expenses.</li>
+</ol>
+
+<p><strong>If you want to assign different cards to different employees:</strong></p>
+<ol>
+  <li>Go to each employee record in NetSuite.</li>
+  <li>Under the Human Resources &gt; Expense and Purchasing section, find the field: Default Account for Corporate Card Expenses.</li>
+</ol>
+
+<p><strong>For reports containing cash expenses that are not marked as Reimbursable:</strong></p>
+<ol>
+  <li>Have the approver reject the report.</li>
+  <li>Mark the expenses as Reimbursable.</li>
+  <li>Re-submit the report, approve it, and try to export again.</li>
+</ol>
+
+<p>For accounts without subsidiaries (non-OneWorld accounts), the default field is in your accounting preferences.</p>
+
+<h1 id="expensierror-ns0085-expense-does-not-have-appropriate-permissions-for-settings-an-exchange-rate-in-netsuite">ExpensiError NS0085: Expense Does Not Have Appropriate Permissions for Settings an Exchange Rate in NetSuite</h1>
+
+<p>This error occurs when the exchange rate settings in NetSuite aren’t updated correctly.</p>
+
+<h2 id="how-to-fix-expensierror-ns0085">How to Fix ExpensiError NS0085</h2>
+<ol>
+  <li>In NetSuite, go to Customization &gt; Forms &gt; Transaction Forms.</li>
+  <li>Search for the form type that the report is being exported as (Expense Report, Journal Entry, or Vendor Bill) and click Edit next to the form that has the Preferred checkbox checked.
+    <ul>
+      <li><strong>For Expense Reports:</strong>
+        <ul>
+          <li>Go to Screen Fields &gt; Expenses (the Expenses tab farthest to the right).</li>
+          <li>Ensure the Exchange Rate field under the Description column has the Show checkbox checked.</li>
+        </ul>
+      </li>
+      <li><strong>For Vendor Bills:</strong>
+        <ul>
+          <li>Go to Screen Fields &gt; Main.</li>
+          <li>Ensure the Exchange Rate field under the Description column has the Show checkbox checked.</li>
+        </ul>
+      </li>
+      <li><strong>For Journal Entries:</strong>
+        <ul>
+          <li>Go to Screen Fields &gt; Lines.</li>
+          <li>Ensure the Exchange Rate field under the Description column has the Show checkbox checked.</li>
+          <li>Go to Screen Fields &gt; Main and ensure the Show checkbox is checked in the Exchange Rate field under the Description column.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Go to <strong>Settings &gt; Workspaces &gt; Group &gt; [Workspace Name] &gt; Connections</strong>.</li>
+  <li>Click Sync Now to sync the NetSuite connection.</li>
+  <li>Export the report(s) again.</li>
+</ol>
+
+<h1 id="expensierror-ns0079-the-transaction-date-is-not-within-the-date-range-of-your-accounting-period">ExpensiError NS0079: The Transaction Date is Not Within the Date Range of Your Accounting Period</h1>
+
+<p>The transaction date you specified is not within the date range of your accounting period. When the posting period settings in NetSuite are not configured to allow a transaction date outside the posting period, you can’t export a report to the next open period, which is why you’ll run into this error.</p>
+
+<h2 id="how-to-fix-expensierror-ns0079">How to Fix ExpensiError NS0079</h2>
+<ol>
+  <li>In NetSuite, navigate to Setup &gt; Accounting &gt; Accounting Preferences.</li>
+  <li>Under the General Ledger section, ensure the field Allow Transaction Date Outside of the Posting Period is set to Warn.</li>
+  <li>Then, choose whether to export your reports to the First Open Period or the Current Period.</li>
+</ol>
+
+<p>Additionally, ensure the Export to Next Open Period feature is enabled within Expensify:</p>
+<ol>
+  <li>Navigate to <strong>Settings &gt; Workspaces &gt; Group &gt; [Workspace Name] &gt; Connections &gt; Configure</strong>.</li>
+  <li>Open the <strong>Advanced tab</strong>.</li>
+  <li>Confirm that the setting for <strong>Export to Next Open Period</strong> is enabled.</li>
+</ol>
+
+<p>If any configuration settings are updated on the NetSuite connection, be sure to sync the connection before trying the export again.</p>
+
+<h1 id="expensierror-ns0055-the-vendor-you-are-trying-to-export-to-does-not-have-access-to-the-currency-x">ExpensiError NS0055: The Vendor You are Trying to Export to Does Not Have Access to the Currency X</h1>
+
+<p>This error occurs when a vendor tied to a report in Expensify does not have access to a currency on the report in NetSuite. The vendor used in NetSuite depends on the type of expenses on the report you’re exporting.</p>
+<ul>
+  <li>For <strong>reimbursable</strong> (out-of-pocket) expenses, this is the report’s submitter (the employee who submitted the report).</li>
+  <li>For <strong>non-reimbursable</strong> (e.g., company card) expenses, this is the default vendor set via Settings &gt; Workspaces &gt; Group &gt; [Workspace Name] &gt; Connections &gt; NetSuite &gt; Configure.</li>
+</ul>
+
+<h2 id="how-to-fix-expensierror-ns0055">How to Fix ExpensiError NS0055</h2>
+<p>To fix this, the vendor needs to be given access to the applicable currency:</p>
+<ol>
+  <li>In NetSuite, navigate to Lists &gt; Relationships &gt; Vendors to access the list of Vendors.</li>
+  <li>Click Edit next to the Vendor tied to the report:
+    <ul>
+      <li>For reimbursable (out-of-pocket) expenses, this is the report’s submitter.</li>
+      <li>For non-reimbursable (e.g., company card) expenses, this is the default vendor set via <strong>Settings &gt; Workspaces &gt; Group &gt; [Workspace Name] &gt; Connections &gt; NetSuite &gt; Configure</strong>.</li>
+    </ul>
+  </li>
+  <li>Navigate to the Financial tab.</li>
+  <li>Scroll down to the Currencies section and add all the currencies that are on the report you are trying to export.</li>
+  <li>Click Save.</li>
+</ol>
+
+<h1 id="expensierror-ns0068-you-do-not-have-permission-to-set-a-value-for-element---created-from">ExpensiError NS0068: You do not have permission to set a value for element - “Created From”</h1>
+
+<p><strong>To resolve this error:</strong></p>
+<ol>
+  <li>In NetSuite, go to Customization &gt; Forms &gt; Transaction Forms.</li>
+  <li>Search for the form type that the report is being exported as in NetSuite (Expense Report, Journal Entry, Vendor Bill, or if the report total is negative, Vendor Credit).</li>
+  <li>Click Edit next to the form that has the Preferred checkbox checked.</li>
+  <li>Go to Screen Fields &gt; Main and ensure the field Created From has the Show checkbox checked.</li>
+  <li>Sync the NetSuite connection under <strong>Settings &gt; Workspaces &gt; Group &gt; [Workspace Name] &gt; Connections &gt; Sync Now</strong>.</li>
+  <li>Export the report(s) again.</li>
+</ol>
+
+<h4 id="for-reports-with-expensify-card-expenses">For reports with Expensify Card expenses</h4>
+<p>Expensify Card expenses export as Journal Entries. If you encounter this error when exporting a report with Expensify Card non-reimbursable expenses, ensure the field Created From has the Show checkbox checked for Journal Entries in NetSuite.</p>
+
+<h1 id="expensierror-ns0037-you-do-not-have-permission-to-set-a-value-for-element---receipt-url">ExpensiError NS0037: You do not have permission to set a value for element - “Receipt URL”</h1>
+
+<p><strong>To resolve this error:</strong></p>
+<ol>
+  <li>In NetSuite, go to Customization &gt; Forms &gt; Transaction Forms.</li>
+  <li>Search for the form type that the report is being exported as in NetSuite (Expense Report, Journal Entry, or Vendor Bill).</li>
+  <li>Click Edit next to the form that has the Preferred checkbox checked.
+    <ul>
+      <li>If the report is being exported as an Expense Report:
+        <ul>
+          <li>Go to Screen Fields &gt; Expenses (the Expenses tab farthest to the right).</li>
+          <li>Ensure the field ReceiptURL has the Show checkbox checked.</li>
+        </ul>
+      </li>
+      <li>If the report is being exported as a Journal Entry:
+        <ul>
+          <li>Go to Screen Fields &gt; Lines.</li>
+          <li>Ensure the field ReceiptURL has the Show checkbox checked.</li>
+        </ul>
+      </li>
+      <li>If the report is being exported as a Vendor Bill:
+        <ul>
+          <li>Go to Screen Fields &gt; Main.</li>
+          <li>Ensure the field ReceiptURL has the Show checkbox checked.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Click Sync Now to sync the NetSuite connection at <strong>Settings &gt; Workspaces &gt; Group &gt; Workspace Name &gt; Connections</strong>.</li>
+  <li>Export the report(s) again.</li>
+</ol>
+
+<h1 id="expensierror-ns0042-error-creating-vendor---this-entity-already-exists">ExpensiError NS0042: Error creating vendor - this entity already exists</h1>
+
+<p>This error occurs when a vendor record already exists in NetSuite, but Expensify is still attempting to create a new one. This typically means that Expensify cannot find the existing vendor during export.</p>
+<ul>
+  <li>The vendor record already exists in NetSuite, but there may be discrepancies preventing Expensify from recognizing it.</li>
+  <li>The email on the NetSuite vendor record does not match the email of the report submitter in Expensify.</li>
+  <li>The vendor record might not be associated with the correct subsidiary in NetSuite.</li>
+</ul>
+
+<h2 id="how-to-fix-expensierror-ns0042">How to Fix ExpensiError NS0042</h2>
+
+<p>Follow these steps to resolve the issue:</p>
+<ol>
+  <li><strong>Check Email Matching:</strong>
+    <ul>
+      <li>Ensure the email on the NetSuite vendor record matches the email of the report submitter in Expensify.</li>
+    </ul>
+  </li>
+  <li><strong>Check Subsidiary Association:</strong>
+    <ul>
+      <li>Ensure the vendor record is associated with the same subsidiary selected in the connection configurations</li>
+      <li>You can review this under <strong>Settings &gt; Workspaces &gt; Group &gt; Workspace Name &gt; Connections &gt; Configure</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Automatic Vendor Creation:</strong>
+    <ul>
+      <li>If you want Expensify to automatically create vendors, ensure the “Automatically Create Vendor” option is enabled under <strong>Settings &gt; Workspaces &gt; Group &gt; Workspace Name &gt; Connections &gt; Advanced</strong>.</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>Options to Resolve the Error:</strong></p>
+<ul>
+  <li><strong>Edit the Existing Vendor:</strong> Update the existing vendor record in NetSuite to match the report submitter’s email and name.</li>
+  <li><strong>Delete the Existing Vendor:</strong> If appropriate, delete the existing vendor record in NetSuite to allow Expensify to create a new one.</li>
+  <li><strong>Add Email to Existing Vendor:</strong> Add the email address of the report’s submitter to the existing vendor record in NetSuite.</li>
+</ul>
+
+<p><strong>Final Steps:</strong></p>
+<ol>
+  <li>After making the necessary changes, head to <strong>Settings &gt; Workspaces &gt; Group &gt; Workspace Name &gt; Connections</strong> in Expensify.</li>
+  <li>Sync the NetSuite workspace connection.</li>
+  <li>Retry exporting the report.</li>
+</ol>
+
+<h1 id="expensierror-ns0109-failed-to-login-to-netsuite-please-verify-your-credentials">ExpensiError NS0109: Failed to login to NetSuite, please verify your credentials</h1>
+
+<p>This error indicates a problem with the tokens created for the connection between Expensify and NetSuite. The error message will say, “Login Error. Please check your credentials.”</p>
+
+<h2 id="how-to-fix-expensierror-ns0109">How to Fix ExpensiError NS0109</h2>
+<ol>
+  <li>Review the <a href="https://help.expensify.com/articles/expensify-classic/integrations/accounting-integrations/NetSuite">Connect to NetSuite</a> guide and follow steps 1 and 2 exactly as outlined.</li>
+  <li>If you’re using an existing token and encounter a problem, you may need to create a new token.</li>
+</ol>
+
+<h1 id="expensierror-ns0123-login-error-please-make-sure-that-the-expensify-integration-is-enabled">ExpensiError NS0123 Login Error: Please make sure that the Expensify integration is enabled</h1>
+
+<p>This error indicates that the Expensify integration is not enabled in NetSuite.</p>
+
+<h2 id="how-to-fix-expensierror-ns0123">How to Fix ExpensiError NS0123</h2>
+<ol>
+  <li><strong>Enable the Expensify Integration:</strong>
+    <ul>
+      <li>In NetSuite, navigate to Setup &gt; Integrations &gt; Manage Integrations.</li>
+      <li>Ensure that the Expensify Integration is listed and that the State is Enabled.</li>
+    </ul>
+  </li>
+  <li><strong>If you can’t find the Expensify integration:</strong>
+    <ul>
+      <li>Click “Show Inactives” to see if Expensify is listed as inactive.</li>
+      <li>If Expensify is listed, update its state to Enabled.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Once the Expensify integration is enabled, try syncing the NetSuite connection again.</p>
+
+<h1 id="expensierror-ns0045-expenses-not-categorized-with-a-netsuite-account">ExpensiError NS0045: Expenses Not Categorized with a NetSuite Account</h1>
+
+<p><strong>To resolve this error:</strong></p>
+<ol>
+  <li>Log into NetSuite</li>
+  <li>Do a global search for the missing record.
+    <ul>
+      <li>Ensure the expense category is active and correctly named.</li>
+      <li>Ensure the category is associated with the correct subsidiary that the Expensify workspace is linked to.</li>
+    </ul>
+  </li>
+  <li>In Expensify, head to <strong>Settings &gt; Workspaces &gt; Groups &gt; Workspace Name &gt; Connections</strong> and click <strong>Sync Now</strong> on the NetSuite connection to resync the workspace.</li>
+  <li>Go back to the report, click on the offending expense(s), and re-apply the category in question.</li>
+  <li>Export the report again.</li>
+</ol>
+
+<h1 id="expensierror-ns0061-please-enter-values-for-tax-code">ExpensiError NS0061: Please Enter Value(s) for: Tax Code</h1>
+
+<p>This error typically occurs when attempting to export expense reports to a Canadian subsidiary in NetSuite for the first time and/or if your subsidiary in NetSuite has Tax enabled.</p>
+
+<h2 id="how-to-fix-expensierror-ns0061">How to Fix ExpensiError NS0061</h2>
+<p>To fix this, you need to enable Tax in the NetSuite configuration settings.</p>
+
+<ol>
+  <li>Go to <strong>Settings &gt; Workspaces &gt; Group &gt; Workspace Name &gt; Connections &gt; NetSuite</strong>.
+    <ul>
+      <li>Be sure to select posting accounts for GST/HST and PST if you plan on exporting any expenses with taxes on them to Journal Entries.</li>
+    </ul>
+  </li>
+  <li>Click <strong>Save</strong></li>
+  <li>Click <strong>Sync Now</strong> to sync the connection</li>
+</ol>
+
+<p><strong>Note:</strong> Expenses created before Tax was enabled might need to have the newly imported taxes applied to them retroactively to be exported.</p>
+
+<h1 id="error-creating-employee-your-current-role-does-not-have-permission-to-access-this-record">Error creating employee: Your current role does not have permission to access this record.</h1>
+
+<p>This error indicates that the credentials or role used to connect NetSuite to Expensify do not have the necessary permissions within NetSuite. You can find setup instructions for configuring permissions in NetSuite <a href="https://help.expensify.com/articles/expensify-classic/connections/netsuite/Connect-To-NetSuite#step-3-add-expensify-integration-role-to-a-user">here</a>.</p>
+
+<p><strong>To resolve this error:</strong></p>
+<ol>
+  <li>If permissions are configured correctly, confirm the report submitter exists in the subsidiary set on the workspace and that their Expensify email address matches the email on the NetSuite Employee Record.</li>
+  <li>If the above is true, try toggling off “Automatically create vendors/employees” under the Advanced tab of the NetSuite configuration window.
+    <ul>
+      <li>Head to <strong>Settings &gt; Workspaces &gt; Group &gt; Workspace Name &gt; Connections &gt; NetSuite &gt; Configure</strong></li>
+      <li>Click on the <strong>Advanced</strong> tab</li>
+      <li>Disable <strong>Automatically create vendors/employees</strong></li>
+    </ul>
+  </li>
+  <li>Sync the NetSuite connection in Expensify</li>
+  <li>Export the report again.</li>
+</ol>
+
+<h1 id="elimination-settings-for-x-do-not-match">Elimination Settings for X Do Not Match</h1>
+
+<p>This error occurs when an Intercompany Payable account is set as the default in the Default Payable Account field in the NetSuite subsidiary preferences, and the Accounting Approval option is enabled for Expense Reports.</p>
+
+<p><strong>To resolve this error:</strong>
+Set the Default Payable Account for Expense Reports on each subsidiary in NetSuite to ensure the correct payable account is active.</p>
+<ol>
+  <li>Navigate to Subsidiaries:
+    <ul>
+      <li>Go to Setup &gt; Company &gt; Subsidiaries.</li>
+    </ul>
+  </li>
+  <li>Edit Subsidiary Preferences:
+    <ul>
+      <li>Click Edit for the desired subsidiary.</li>
+      <li>Go to the Preferences tab.</li>
+    </ul>
+  </li>
+  <li>Set Default Payable Account:
+    <ul>
+      <li>Choose the preferred account for Default Payable Account for Expense Reports.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Repeat these steps for each subsidiary to ensure the settings are correct, and then sync Expensify to NetSuite to update the connection.</p>
+
+<h1 id="why-are-reports-exporting-as-accounting-approved-instead-of-paid-in-full">Why are reports exporting as <code class="language-plaintext highlighter-rouge">Accounting Approved</code> instead of <code class="language-plaintext highlighter-rouge">Paid in Full</code>?</h1>
+
+<p><strong>This can occur for two reasons:</strong></p>
+<ul>
+  <li>Missing Locations, Classes, or Departments in the Bill Payment Form</li>
+  <li>Incorrect Settings in Expensify Workspace Configuration</li>
+</ul>
+
+<h2 id="missing-locations-classes-or-departments-in-bill-payment-form">Missing Locations, Classes, or Departments in Bill Payment Form</h2>
+
+<p>If locations, classes, or departments are required in your accounting classifications but are not marked as ‘Show’ on the preferred bill payment form, this error can occur, and you will need to update the bill payment form in NetSuite:</p>
+<ol>
+  <li>Go to Customization &gt; Forms &gt; Transaction Forms.</li>
+  <li>Find your preferred (checkmarked) Bill Payment form.</li>
+  <li>Click Edit or Customize.</li>
+  <li>Under the Screen Fields &gt; Main tab, check ‘Show’ near the department, class, and location options.</li>
+</ol>
+
+<h2 id="incorrect-settings-in-expensify-workspace-configuration">Incorrect Settings in Expensify Workspace Configuration</h2>
+
+<p>To fix this, you’ll want to confirm the NetSuite connection settings are set up correctly in Expensify:</p>
+<ol>
+  <li>Head to <strong>Settings &gt; Workspaces &gt; Group &gt; Workspace Name &gt; Connections &gt; NetSuite &gt; Configure &gt; Advanced</strong></li>
+  <li><strong>Ensure the following settings are correct:</strong>
+    <ul>
+      <li>Sync Reimbursed Reports: Enabled and payment account chosen.</li>
+      <li>Journal Entry Approval Level: Approved for Posting.</li>
+      <li>A/P Approval Account: This must match the current account being used for bill payment.</li>
+    </ul>
+  </li>
+  <li><strong>Verify A/P Approval Account:</strong>
+    <ul>
+      <li>To ensure the A/P Approval Account matches the account in NetSuite:
+        <ul>
+          <li>Go to your bill/expense report causing the error.</li>
+          <li>Click Make Payment.</li>
+          <li>This account needs to match the account selected in your Expensify configuration.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Check Expense Report List:</strong>
+    <ul>
+      <li>Make sure this is also the account selected on the expense report by looking at the expense report list.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Following these steps will help ensure that reports are exported as “Paid in Full” instead of “Accounting Approved.”</p>
+
+<h1 id="why-are-reports-exporting-as-pending-approval">Why are reports exporting as <code class="language-plaintext highlighter-rouge">Pending Approval</code>?</h1>
+
+<p>If reports are exporting as “Pending Approval” instead of “Approved,” you’ll need to adjust the approval preferences in NetSuite.</p>
+
+<p><strong>Exporting as Journal Entries/Vendor Bills:</strong></p>
+<ol>
+  <li>In NetSuite, go to Setup &gt; Accounting &gt; Accounting Preferences.</li>
+  <li>On the <strong>General</strong> tab, uncheck <strong>Require Approvals on Journal Entries</strong>.</li>
+  <li>On the <strong>Approval Routing</strong> tab, uncheck Journal Entries/Vendor Bills to remove the approval requirement for Journal Entries created in NetSuite.</li>
+</ol>
+
+<p><strong>Note:</strong> This change affects all Journal Entries, not just those created by Expensify.</p>
+
+<p><strong>Exporting as Expense Reports:</strong></p>
+<ol>
+  <li>In NetSuite, navigate to Setup &gt; Company &gt; Enable Features.</li>
+  <li>On the “Employee” tab, uncheck “Approval Routing” to remove the approval requirement for Expense Reports created in NetSuite. Please note that this setting also applies to purchase orders.</li>
+</ol>
+
+<h1 id="how-do-i-change-the-default-payable-account-for-reimbursable-expenses-in-netsuite">How do I Change the Default Payable Account for Reimbursable Expenses in NetSuite?</h1>
+
+<p>NetSuite is set up with a default payable account that is credited each time reimbursable expenses are exported as Expense Reports to NetSuite (once approved by the supervisor and accounting). If you need to change this to credit a different account, follow the below steps:</p>
+
+<p><strong>For OneWorld Accounts:</strong></p>
+<ol>
+  <li>Navigate to Setup &gt; Company &gt; Subsidiaries in NetSuite.</li>
+  <li>Next to the subsidiary you want to update, click Edit.</li>
+  <li>Click the Preferences tab.</li>
+  <li>In the Default Payable Account for Expense Reports field, select the desired payable account.</li>
+  <li>Click Save.</li>
+</ol>
+
+<p><strong>For Non-OneWorld Accounts:</strong></p>
+<ol>
+  <li>Navigate to Setup &gt; Accounting &gt; Accounting Preferences in NetSuite.</li>
+  <li>Click the Time &amp; Expenses tab.</li>
+  <li>Under the Expenses section, locate the Default Payable Account for Expense Reports field and choose the preferred account.</li>
+  <li>Click Save.</li>
+</ol>
+
+<h1 id="why-are-my-company-card-expenses-exporting-to-the-wrong-account-in-netsuite">Why are my Company Card Expenses Exporting to the Wrong Account in NetSuite?</h1>
+
+<p>If your company card transactions are exporting to the wrong account in your accounting system, there are a couple of factors to check:</p>
+<ol>
+  <li><strong>Verify Card Mapping:</strong>
+    <ul>
+      <li>Ensure that the cards are mapped to the correct accounts at the domain level</li>
+      <li>This can be viewed under <strong>Settings &gt; Domains &gt; Domain Name &gt; Company Cards</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>Check Default Account Settings:</strong>
+    <ul>
+      <li>Review the account where the expenses were exported</li>
+      <li>It should be the default account under <strong>Settings &gt; Workspaces &gt; Group &gt; Workspace Name &gt; Connections</strong>.</li>
+      <li>Click <strong>Configure</strong> to check the default export settings for your non-reimbursable expenses.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>The most common reason expenses export to the default account is that they are not actually imported from the mapped company card. Only company card expenses (notated with the “Card+Lock” icon) can use the export mapping settings configured at the domain level.</p>
+
+<p>Even if an expense was paid with the company card, it is considered a ‘cash’ expense unless it merges with a card expense marked with the Card+Lock icon.</p>
+
+<p>Less commonly, the issue may occur if the company card has been added to the user’s personal settings. Expenses imported from a card linked at the individual account level will have a plain card icon.</p>
+
+
+            </div>
+            
+        </div>
+
+        <!-- Concierge button at the bottom of the page -->
+        
+
+
+
+        <div class="get-help">
+            <h2 class="title with-margin">Didn't find what you were looking for?</h2>
+            <p class="description">Concierge is here to answer all your questions.</p>
+            <a href="https://dev.new.expensify.com:8082/concierge" target="_blank">
+                <div class="submit-button">
+                    <button class="success">Send a message</button>
+                </div>
+            </a>
+        </div>
+
+        <div id="footer">
+            <div class="page-footer">
+    <div class="page-footer__wrapper">
+        <div class="columns">
+            <div class="column">
+                <h3>Features</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/expense-management" alt="Expense Management" target="_blank">Expense Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/spend-management" alt="Spend Management" target="_blank">Spend Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/expense-reports" alt="Expense Reports" target="_blank">Expense Reports</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/company-credit-card" alt="Company Credit Card" target="_blank">Company Credit Card</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/receipt-scanning-app" alt="Receipt Scanning App" target="_blank">Receipt Scanning App</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/bills" alt="Bill Pay" target="_blank">Bill Pay</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/invoices" alt="Invoicing" target="_blank">Invoicing</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/payroll" alt="Payroll" target="_blank">Payroll</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/travel" alt="Travel" target="_blank">Travel</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Resources</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/accountants" alt="ExpensifyApproved!" target="_blank">ExpensifyApproved!</a>
+                    </li>
+
+                    <li>
+                        <a href="https://use.expensify.com/press-kit" alt="Press Kit" target="_blank">Press Kit</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/support" alt="Support" target="_blank">Support</a>
+                    </li>
+                    <li>
+                        <a href="https://help.expensify.com/" alt="ExpensifyHelp" target="_blank">ExpensifyHelp</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/terms" alt="Terms" target="_blank">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/privacy" alt="Privacy" target="_blank">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Learn more</h3>
+                <ul>
+                    <li>
+                        <a href="https://we.are.expensify.com/how-we-got-here" alt="About Expensify" target="_blank">About Expensify</a>
+                    </li>
+                    <li>
+                        <a href="https://blog.expensify.com/" alt="Blog" target="_blank">Blog</a>
+                    </li>
+                    <li>
+                        <a href="https://we.are.expensify.com/" alt="Jobs" target="_blank">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.org" alt="Expensify.org" target="_blank">Expensify.org</a>
+                    </li>
+                    <li>
+                        <a href="https://ir.expensify.com" alt="Investor Relations" target="_blank">Investor Relations</a>
+                    </li>
+                </ul>
+
+                <div class="page-footer__social-icons">
+                    <a href="https://we.are.expensify.com/podcast" class="social-media-link expensicons expensicons-podcast">
+                        <img src="/assets/images/social-podcast.svg" alt="Podcast" width="24" height="24">
+                    </a>
+                    <a href="https://www.twitter.com/expensify" class="social-media-link expensicons expensicons-twitter" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-twitter.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.instagram.com/expensify" class="social-media-link expensicons expensicons-instagram" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-instagram.svg" alt="Instagram" width="24" height="24">
+                    </a>
+                    <a href="https://www.facebook.com/expensify" class="social-media-link expensicons expensicons-facebook" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-facebook.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.linkedin.com/company/expensify" class="social-media-link expensicons expensicons-linkedin" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Get Started</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.expensify.com" alt="Create A New Account" target="_blank">Create A New Account</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.expensify.com" alt="Log In" target="_blank">Log In</a>
+                    </li>
+                </ul>
+
+                <p id="footer-copywrite-date" class="page-footer__fine-print"></p>
+            </div>
+        </div>
+
+        <p class="page-footer__fine-print">The Expensify Visa® Commercial Card is issued by The Bancorp Bank, N.A., Member FDIC, pursuant to a license from Visa U.S.A. Inc. and may not be used at all merchants that accept Visa cards. Apple® and the Apple logo® are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</p>
+
+        <div class="page-footer__logo">
+            <img src="/assets/images/expensify-footer-logo.svg" alt="Expensify" />
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>

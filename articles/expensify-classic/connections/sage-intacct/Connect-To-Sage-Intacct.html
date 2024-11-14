@@ -1,0 +1,806 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src https://kit.fontawesome.com https://cdnjs.cloudflare.com https://www.google.com https://www.gstatic.com/ https://cse.google.com http://cse.google.com https://partner.googleadservices.com/ https://cdnjs.cloudflare.com/ajax/libs/tocbot/ https://www.googletagmanager.com 'self' 'unsafe-eval' 'unsafe-inline'; style-src cdnjs.cloudflare.com cse.google.com www.google.com ka-f.fontawesome.com fonts.googleapis.com 'self' 'unsafe-inline'" >
+    <title>Expensify Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="icon" type="image/png" href="/assets/images/expensify-logo-round.png">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.css">
+
+    <script src="https://kit.fontawesome.com/263e5e8608.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script defer src="/assets/js/platform-tabs.js"></script>
+    <script defer src="/assets/js/selector.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=4149bc31c5c314a1a"></script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-TQBQW7CR');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- SEO tags -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Sage Intacct | Expensify Help</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Sage Intacct" />
+<meta name="author" content="Expensify" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Connect your Expensify workspace with Sage Intacct" />
+<meta property="og:description" content="Connect your Expensify workspace with Sage Intacct" />
+<link rel="canonical" href="http://localhost:4000/articles/expensify-classic/connections/sage-intacct/Connect-To-Sage-Intacct.html" />
+<meta property="og:url" content="http://localhost:4000/articles/expensify-classic/connections/sage-intacct/Connect-To-Sage-Intacct.html" />
+<meta property="og:site_name" content="Expensify Help" />
+<meta property="og:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="twitter:title" content="Sage Intacct" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Expensify"},"description":"Connect your Expensify workspace with Sage Intacct","headline":"Sage Intacct","image":"http://localhost:4000/assets/images/og-preview-image.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/expensify-help.svg"},"name":"Expensify"},"url":"http://localhost:4000/articles/expensify-classic/connections/sage-intacct/Connect-To-Sage-Intacct.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBQW7CR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="lhn">
+
+        <div class="lhn-header">
+            <div class="flex">
+                <div id="header-button">
+                    <img id="angle-up-icon" src="/assets/images/arrow-up.svg" class="base-icon hide"></img>
+                    <img id="bars-icon" src="/assets/images/menu.svg" class="base-icon"></img>
+                </div>
+                <div>
+                    <a href="/">
+                        <img src="/assets/images/expensify-help.svg" class="logo" />
+                    </a>
+                </div>
+                <!-- Search icons that'll open the Sidebar Search sections -->
+                <div class="search-icon">
+    <a onclick="openSidebar()" id="toggle-search-open">
+        <img src="/assets/images/search.svg" class="base-icon" />
+    </a>
+</div>
+
+            </div>
+        </div>
+
+        <!-- Sidebar Search sections -->
+        <div id="sidebar-layer">
+    <div id="sidebar-search" class="sidebar">
+        <div class="flex searchbar-title-wrapper">
+            <a id="toggle-search-close">
+                <img src="/assets/images/back-left.svg" class="base-icon" />
+            </a>
+            <h4 class="search-title">Search</h4>
+        </div>
+        <!-- As the search box is being managed by Embed script from Google, the way search work is on via on Enter / Search Icon -->
+        <div class="gcse-searchbox" data-enableHistory="false"></div>
+        <div class="gcse-searchresults"></div>
+    </div>
+</div>
+
+
+        <!-- LHN content (Main navigation tree or Article TOC) -->
+        <div id="lhn-content">
+            
+                <div id="back-button" class="icon-with-link">
+                    <img src="/assets/images/back-left.svg" class="base-icon"></img>
+                    <div class="link">Back</div>
+                </div>
+                <div class="article-toc"></div>
+            
+        </div>
+    </div>
+
+    <div id="content-area">
+
+        <div id="article-content">
+            <!-- Article title (only shown in article pages) -->
+            
+            <div class="title-platform-tabs">
+                <h1 class="title">
+                    Connect To Sage Intacct
+                </h1>
+                <div id="platform-tabs">
+                </div>
+            </div>
+            <div class="article-toc-content article">
+                <h1 id="overview">Overview</h1>
+
+<p>Expensify’s seamless integration with Sage Intacct allows you to connect using either Role-based permissions or User-based permissions.</p>
+
+<p>Once connected to Intacct you’re able to automate report exports, customize your coding preferences, and utilize Sage Intacct’s advanced features. When you’ve configured these settings in Expensify correctly, you can use the integration’s settings to automate many tasks, streamlining your workflow for increased efficiency.</p>
+
+<div class="info">
+    <img src="/assets/images/info.svg" width="16" height="16" />
+    <div>
+    <p>The Sage Intacct integration is only available on the Control plan.</p>
+  </div>
+</div>
+
+<h1 id="how-to-connect-to-sage-intacct">How to connect to Sage Intacct</h1>
+<p>We support setting up Sage Intacct with both User-based permissions and Role-based permissions for Expense Reports and Vendor Bills.</p>
+<ul>
+  <li>User-based Permissions - Expense Reports</li>
+  <li>User-based Permissions - Vendor Bills</li>
+  <li>Role-based Permissions - Expense Reports</li>
+  <li>Role-based Permissions - Vendor Bills</li>
+</ul>
+
+<h2 id="user-based-permissions---expense-reports">User-based Permissions - Expense Reports</h2>
+
+<p>Please follow these steps if exporting as Expense Reports with <strong>user-based permissions</strong>.</p>
+
+<h3 id="checklist-of-items-to-complete">Checklist of items to complete:</h3>
+<ol>
+  <li>Create a web services user and set up permissions.</li>
+  <li>Enable the Time &amp; Expenses module <strong>(Required if exporting as Expense Reports)</strong>.</li>
+  <li>Set up Employees in Sage Intacct <strong>(Required if exporting as Expense Reports)</strong>.</li>
+  <li>Set up Expense Types in Sage Intacct <strong>(Required if exporting as Expense Reports)</strong>.</li>
+  <li>Enable Customization Services (only applicable if you don’t already use Platform Services).</li>
+  <li>Create a test workspace and download the <a href="https://www.expensify.com/tools/integrations/downloadPackage">Expensify Package</a>.</li>
+  <li>Upload the Package in Sage Intacct.</li>
+  <li>Add web services authorization.</li>
+  <li>Enter credentials and connect Expensify and Sage Intacct.</li>
+  <li>Configure integration sync options.</li>
+  <li>Export a test report.</li>
+  <li>Connect Sage Intacct to the production workspace.</li>
+</ol>
+
+<h3 id="step-1-create-a-web-services-user-with-user-based-permissions">Step 1: Create a web services user with user-based permissions</h3>
+
+<p><em>Note: If the steps in this section look different in your Sage Intacct instance, you likely use role-based permissions. If that’s the case, see the steps below on creating a web services user for role-based permissions.</em>
+To connect to Sage Intacct, you’ll need to create a special web services user. This user is essential for tracking actions in Sage Intacct, such as exporting expense reports and credit card charges from Expensify. It also helps ensure smooth operations when new members join or leave your accounting team. The good news is that setting up this web services user won’t cost you anything. Just follow these steps:
+Go to <strong>Company &gt; Web Services Users &gt; New</strong>
+Setup the user using these configurations:</p>
+<ul>
+  <li><strong>User ID:</strong> “xmlgateway_expensify”</li>
+  <li><strong>Last Name and First Name:</strong> “Expensify”</li>
+  <li><strong>Email Address:</strong> Your shared accounting team email</li>
+  <li><strong>User Type:</strong> “Business”</li>
+  <li><strong>Admin Privileges:</strong> “Full”</li>
+  <li><strong>Status:</strong> “Active”
+Once you’ve created the user, you’ll need to set the correct permissions. To set those, go to the <strong>subscription</strong> link for this user in the user list, <strong>click on the checkbox</strong> next to the Application/Module and then click on the <strong>Permissions</strong> link to modify those.</li>
+</ul>
+
+<p>These are the permissions required for a user to export reimbursable expenses as Expense Reports:</p>
+<ul>
+  <li><strong>Administration (All)</strong></li>
+  <li><strong>Company (Read-only)</strong></li>
+  <li><strong>Cash Management (All)</strong></li>
+  <li><strong>General Ledger (All)</strong></li>
+  <li><strong>Time &amp; Expense (All)</strong></li>
+  <li><strong>Projects (Read-only)</strong> (only needed if using Projects and Customers)</li>
+  <li><strong>Accounts Payable (All)</strong> (only needed for exporting non-reimbursable expenses as vendor bills)</li>
+</ul>
+
+<p><strong>Note:</strong> you can set permissions for each Application/Module by selecting the radio button next to the desired Permission and clicking <strong>Save</strong>.</p>
+
+<h3 id="step-2-enable-the-time--expenses-module-only-required-if-exporting-reimbursable-expenses-as-expense-reports">Step 2: Enable the Time &amp; Expenses Module (Only required if exporting reimbursable expenses as Expense Reports)</h3>
+<p>The Time &amp; Expenses (T&amp;E) module is often included in your Sage Intacct instance, but if it wasn’t part of your initial Sage Intacct setup, you may need to enable it. <strong>Enabling the T&amp;E module is a paid subscription through Sage Intacct. For information on the costs of enabling this module, please contact your Sage Intacct account manager</strong>. It’s necessary for our integration and only takes a few minutes to configure.</p>
+<ol>
+  <li>In Sage Intacct, go to the <strong>Company menu &gt; Subscriptions &gt; Time &amp; Expenses</strong> and toggle the switch to subscribe.</li>
+  <li>After enabling T&amp;E, configure it as follows:
+    <ul>
+      <li>Ensure that <strong>Expense types</strong> is checked:</li>
+      <li>Under <strong>Auto-numbering sequences</strong> set the following:
+        <ul>
+          <li><strong>Expense Report:</strong> EXP</li>
+          <li><strong>Employee:</strong> EMP</li>
+          <li>
+            <p><strong>Duplicate Numbers:</strong> Select “Do not allow creation”</p>
+          </li>
+          <li>To create the EXP sequence, <strong>click on the down arrow on the expense report line and select **Add</strong>:
+            <ul>
+              <li><strong>Sequence ID:</strong> EXP</li>
+              <li><strong>Print Title:</strong> EXPENSE REPORT</li>
+              <li><strong>Starting Number:</strong> 1</li>
+              <li><strong>Next Number:</strong> 2</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Select <strong>Advanced Settings</strong> and configure the following:
+    <ul>
+      <li><strong>Fixed Number Length:</strong> 4</li>
+      <li><strong>Fixed Prefix:</strong> EXP</li>
+    </ul>
+  </li>
+  <li>Click <strong>Save</strong></li>
+  <li>Under Expense Report approval settings, ensure that <strong>Enable expense report approval</strong> is unchecked</li>
+  <li>Click <strong>Save</strong> to confirm your configurations.</li>
+</ol>
+
+<h3 id="step-3-set-up-employees-in-sage-intacct-only-required-if-exporting-reimbursable-expenses-as-expense-reports">Step 3: Set up Employees in Sage Intacct (Only required if exporting reimbursable expenses as Expense Reports)</h3>
+<p>To set up Employees in Sage Intacct, follow these steps:</p>
+<ol>
+  <li>Navigate to <strong>Time &amp; Expenses</strong> and click the plus button next to <strong>Employees</strong>.
+    <ul>
+      <li>If you don’t see the Time &amp; Expense option in the top ribbon, you may need to adjust your settings. Go to <strong>Company &gt; Roles &gt; Time &amp; Expenses</strong> and enable all permissions.</li>
+    </ul>
+  </li>
+  <li>To create an employee, you’ll need to provide the following information:
+    <ul>
+      <li><strong>Employee ID</strong></li>
+      <li><strong>Primary contact name</strong></li>
+      <li><strong>Email address</strong>
+        <ul>
+          <li>In the <strong>Primary contact name</strong> field, click the dropdown arrow.</li>
+          <li>Select the employee if they’ve already been created.</li>
+          <li>Otherwise, click <strong>+ Add</strong> to create a new employee.</li>
+          <li>Fill in their <strong>Primary Email Address</strong> along with any other required information.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="step-4-set-up-expense-types-in-sage-intacct-only-required-if-exporting-reimbursable-expenses-as-expense-reports">Step 4: Set up Expense Types in Sage Intacct (Only required if exporting reimbursable expenses as Expense Reports)</h3>
+
+<p>Expense Types provide a user-friendly way to display the names of your expense accounts to your employees. They are essential for our integration. To set up Expense Types, follow these steps:</p>
+<ol>
+  <li><strong>Setup Your Chart of Accounts:</strong> Before configuring Expense Types, ensure your Chart of Accounts is set up. You can set up accounts in bulk by going to <strong>Company &gt; Open Setup &gt; Company Setup Checklist &gt; click Import</strong>.</li>
+  <li><strong>Set up Expense Types:</strong>
+    <ul>
+      <li>Go to <strong>Time &amp; Expense</strong>.</li>
+      <li>Open Setup and click the plus button next to <strong>Expense Types</strong>.</li>
+    </ul>
+  </li>
+  <li>For each Expense Type, provide the following information:
+    <ul>
+      <li><strong>Expense Type</strong></li>
+      <li><strong>Description</strong></li>
+      <li><strong>Account Number</strong> (from your General Ledger)
+This step is necessary if you are exporting reimbursable expenses as Expense Reports.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="step-5-enable-customization-services">Step 5: Enable Customization Services</h3>
+<p>To enable Customization Services go to <strong>Company &gt; Subscriptions &gt; Customization Services</strong>.</p>
+<ul>
+  <li>If you already have Platform Services enabled, you can skip this step.</li>
+</ul>
+
+<h3 id="step-6-create-a-test-workspace-in-expensify-and-download-the-expensify-package">Step 6: Create a Test Workspace in Expensify and Download the <a href="https://www.expensify.com/tools/integrations/downloadPackage">Expensify Package</a></h3>
+<p>Creating a test workspace in Expensify allows you to have a sandbox environment for testing before implementing the integration live. If you are already using Expensify, creating a test workspace ensures that your existing group workspace rules and approval workflows remain intact. Here’s how to set it up:</p>
+<ol>
+  <li>Go to <strong>expensify.com &gt; Settings &gt; Workspaces &gt; New Workspace</strong>.</li>
+  <li>Name the workspace something like “Sage Intacct Test Workspace.”</li>
+  <li>Go to <strong>Connections &gt; Sage Intacct &gt; Connect to Sage Intacct</strong>.</li>
+  <li>Select <strong>Download Package</strong> (You only need to download the file; we’ll upload it from your Downloads folder later).</li>
+</ol>
+
+<h3 id="step-7-upload-package-in-sage-intacct">Step 7: Upload Package in Sage Intacct</h3>
+
+<p>If you use <strong>Customization Services</strong>:</p>
+<ol>
+  <li>Go to <strong>Customization Services &gt; Custom Packages &gt; New Package</strong>.</li>
+  <li>Click on <strong>Choose File</strong> and select the Package file from your downloads folder.</li>
+  <li>Click <strong>Import</strong>.</li>
+</ol>
+
+<p>If you use <strong>Platform Services</strong>:</p>
+<ol>
+  <li>Go to <strong>Platform Services &gt; Custom Packages &gt; New Package</strong>.</li>
+  <li>Click on <strong>Choose File</strong> and select the Package file from your downloads folder.</li>
+  <li>Click <strong>Import</strong>.</li>
+</ol>
+
+<h3 id="step-8-add-web-services-authorization">Step 8: Add Web Services Authorization</h3>
+<ol>
+  <li>Go to <strong>Company &gt; Company Info &gt; Security</strong> in Intacct and click <strong>Edit</strong>.</li>
+  <li>Scroll down to <strong>Web Services Authorizations</strong> and add “expensify” (all lower case) as a Sender ID.</li>
+</ol>
+
+<h3 id="step-9-enter-credentials-and-connect-expensify-and-sage-intacct">Step 9: Enter Credentials and Connect Expensify and Sage Intacct</h3>
+
+<ol>
+  <li>Go back to <strong>Settings &gt; Workspaces &gt; Group &gt; [Workspace Name] &gt; Connections &gt; Configure</strong>.</li>
+  <li>Click <strong>Connect to Sage Intacct</strong> and enter the credentials you’ve set for your web services user.</li>
+  <li>Click <strong>Send</strong> once you’re done.</li>
+</ol>
+
+<p>Next, you’ll configure the Export, Coding, and Advanced tabs of the connection configuration in Expensify.</p>
+
+<h2 id="user-based-permissions---vendor-bills">User-based Permissions - Vendor Bills</h2>
+<p>In this setup guide, we’ll take you through the steps to establish your connection for Vendor Bills with user-based permissions. Please follow this checklist of items to complete:</p>
+<ol>
+  <li>Create a web services user and set up permissions.</li>
+  <li>Enable Customization Services (only required if you don’t already use Platform Services).</li>
+  <li>Create a test workspace in Expensify and download the <a href="https://www.expensify.com/tools/integrations/downloadPackage">Expensify Package</a></li>
+  <li>Upload the Package in Sage Intacct.</li>
+  <li>Add web services authorization.</li>
+  <li>Enter credentials and connect Expensify and Sage Intacct.</li>
+  <li>Configure integration sync options.</li>
+</ol>
+
+<h3 id="step-1-create-a-web-services-user-with-user-based-permissions-1">Step 1: Create a web services user with user-based permissions</h3>
+<p><strong>Note:</strong> If the steps in this section look different in your Sage Intacct instance, you likely use role-based permissions. If that’s the case, see the steps below on creating a web services user for role-based permissions.
+To connect to Sage Intacct, it’s necessary to set up a web services user. This user simplifies tracking activity within Sage Intacct, such as exporting expense reports and credit card charges from Expensify. It also ensures a seamless transition when someone joins or leaves your accounting department. Setting up the web services user is free of charge. Please follow these steps:</p>
+<ol>
+  <li>Go to <strong>Company &gt; Web Services Users &gt; New</strong>.</li>
+  <li>Configure the user as shown in the screenshot below, making sure to follow these guidelines:
+    <ul>
+      <li><strong>User ID:</strong> “xmlgateway_expensify”</li>
+      <li><strong>Last Name and First Name:</strong> “Expensify”</li>
+      <li><strong>Email Address:</strong> Your shared accounting team email</li>
+      <li><strong>User Type:</strong> “Business”</li>
+      <li><strong>Admin Privileges:</strong> “Full”</li>
+      <li><strong>Status:</strong> “Active”</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Once you’ve created the user, you’ll need to set the correct permissions. To do this, follow these steps:</p>
+<ol>
+  <li>Go to the subscription link for this user in the user list.</li>
+  <li>Click on the checkbox next to the Application/Module you want to modify permissions for.</li>
+  <li>Click on the <strong>Permissions</strong> link to make modifications.</li>
+</ol>
+
+<p>These are the permissions the user needs to have if exporting reimbursable expenses as Vendor Bills:</p>
+<ul>
+  <li><strong>Administration (All)</strong></li>
+  <li><strong>Company (Read-only)</strong></li>
+  <li><strong>Cash Management (All)</strong></li>
+  <li><strong>General Ledger (All)</strong></li>
+  <li><strong>Accounts Payable (All)</strong></li>
+  <li><strong>Projects (Read-only)</strong> (required if you’re going to be using Projects and Customers)</li>
+</ul>
+
+<p><strong>Note:</strong> that selecting the radio button next to the Permission you want and clicking <strong>Save</strong> will set the permission for that particular Application/Module.</p>
+
+<h3 id="step-2-enable-customization-services-only-applicable-if-you-dont-already-use-platform-services">Step 2: Enable Customization Services (only applicable if you don’t already use Platform Services)</h3>
+<p>To enable Customization Services go to <strong>Company &gt; Subscriptions &gt; Customization Services</strong>.</p>
+<ul>
+  <li>If you already have Platform Services enabled, you can skip this step.</li>
+</ul>
+
+<h3 id="step-3-create-a-test-workspace-in-expensify-and-download-expensify-package">Step 3: Create a Test Workspace in Expensify and Download <a href="https://www.expensify.com/tools/integrations/downloadPackage">Expensify Package</a></h3>
+<p>Creating a test workspace in Expensify allows you to establish a sandbox environment for testing before implementing the integration in a live environment. If you’re already using Expensify, creating a test workspace ensures that your existing company workspace rules and approval workflows remain intact. Here’s how to set it up:</p>
+<ol>
+  <li>Go to <strong>expensify.com &gt; Settings &gt; Workspaces &gt; Groups &gt; New Workspace</strong>.</li>
+  <li>Name the workspace something like “Sage Intacct Test Workspace.”</li>
+  <li>Go to <strong>Connections &gt; Sage Intacct &gt; Connect to Sage Intacct</strong>.</li>
+  <li>Select “I’ve completed these” if you’ve downloaded the  <a href="https://www.expensify.com/tools/integrations/downloadPackage">Expensify Package</a> and completed the previous steps in Sage Intacct.</li>
+  <li>Select <strong>Download Package</strong> (You only need to download the file; we’ll upload it from your Downloads folder later).</li>
+</ol>
+
+<h3 id="step-4-upload-the-package-in-sage-intacct">Step 4: Upload the Package in Sage Intacct</h3>
+<p>If you use <strong>Customization Services</strong>:</p>
+
+<ol>
+  <li>Go to <strong>Customization Services &gt; Custom Packages &gt; New Package</strong>.</li>
+  <li>Click on <strong>Choose File</strong> and select the Package file from your downloads folder.</li>
+  <li>Click <strong>Import</strong>.</li>
+</ol>
+
+<p>If you use <strong>Platform Services</strong>:</p>
+
+<ol>
+  <li>Go to <strong>Platform Services &gt; Custom Packages &gt; New Package</strong>.</li>
+  <li>Click on <strong>Choose File</strong> and select the Package file from your downloads folder.</li>
+  <li>Click <strong>Import</strong>.</li>
+</ol>
+
+<h3 id="step-5-add-web-services-authorization">Step 5: Add Web Services Authorization</h3>
+<ol>
+  <li>Go to <strong>Company &gt; Company Info &gt; Security</strong> in Intacct and click <strong>Edit</strong>.</li>
+  <li>Scroll down to <strong>Web Services Authorizations</strong> and add “expensify” (all lowercase) as a Sender ID.</li>
+</ol>
+
+<h3 id="step-6-enter-credentials-and-connect-expensify-with-sage-intacct">Step 6: Enter Credentials and Connect Expensify with Sage Intacct</h3>
+<ol>
+  <li>Go back to <strong>Settings &gt; Workspaces &gt; Groups &gt; [Workspace Name] &gt; Connections &gt; Configure</strong>.</li>
+  <li>Click on <strong>Connect to Sage Intacct</strong>.</li>
+  <li>Enter the credentials that you’ve previously set for your web services user.</li>
+  <li>Click <strong>Send</strong> once you’ve finished entering the credentials.</li>
+</ol>
+
+<p>Next, you’ll configure the Export, Coding, and Advanced tabs of the connection configuration in Expensify.</p>
+
+<h2 id="role-based-permissions---expense-reports">Role-based Permissions - Expense Reports</h2>
+
+<p>For this setup guide, we’re going to walk you through how to get your connection up and running as Expense Reports with role-based permissions.</p>
+
+<h3 id="checklist-of-items-to-complete-1">Checklist of items to complete:</h3>
+
+<ol>
+  <li>Create web services user and set up permissions</li>
+  <li>Enable Time &amp; Expenses module</li>
+  <li>Set up Employees in Sage Intacct</li>
+  <li>Set up Expense Types in Sage Intacct</li>
+  <li>Enable Customization Services (only applicable if you don’t already use Platform Services)</li>
+  <li>Create a test workspace and download the <a href="https://www.expensify.com/tools/integrations/downloadPackage">Expensify Package</a></li>
+  <li>Upload the Package in Sage Intacct</li>
+  <li>Add web services authorization</li>
+  <li>Enter credentials and connect Expensify and Sage Intacct</li>
+  <li>Configure integration sync options</li>
+</ol>
+
+<h3 id="step-1-create-a-web-services-user-with-role-based-permissions">Step 1: Create a web services user with role-based permissions</h3>
+
+<p>In Sage Intacct, click <strong>Company</strong>, then click on the <strong>+</strong> button next to <strong>Roles</strong>.</p>
+
+<p>Name the role, then click <strong>Save</strong>.</p>
+
+<p>Go to <strong>Roles &gt; Subscriptions</strong> for the “Expensify” role you just created.</p>
+
+<p>Set the permissions for this role by clicking the checkbox and then clicking on the <strong>Permissions</strong> hyperlink.</p>
+
+<p>These are the permissions required for a user to export reimbursable expenses as Expense Reports:</p>
+<ul>
+  <li><strong>Administration (All)</strong></li>
+  <li><strong>Company (Read-only)</strong></li>
+  <li><strong>Cash Management (All)</strong></li>
+  <li><strong>General Ledger (All)</strong></li>
+  <li><strong>Time &amp; Expense (All)</strong></li>
+  <li><strong>Projects (Read-only)</strong> (only needed if using Projects and Customers)</li>
+  <li><strong>Accounts Payable (All)</strong> (only needed for exporting non-reimbursable expenses as vendor bills)</li>
+</ul>
+
+<p>Now, you’ll need to create a web services user and assign this role to that user.</p>
+
+<ul>
+  <li><strong>Company &gt; Web Services Users &gt; New</strong></li>
+  <li>Set up the user like the screenshot below, making sure to do the following:
+    <ul>
+      <li>User ID: “xmlgateway_expensify”</li>
+      <li>Last name and First name: “Expensify”</li>
+      <li>Email address: your shared accounting team email</li>
+      <li>User type: “Business”</li>
+      <li>Admin privileges: “Full”</li>
+      <li>Status: “Active”</li>
+    </ul>
+  </li>
+</ul>
+
+<p>To assign the role, go to <strong>Roles Information</strong>:</p>
+
+<ul>
+  <li>Click the <strong>+</strong> button, then find the “Expensify” role and click <strong>Save</strong>.</li>
+</ul>
+
+<h3 id="step-2-enable-the-time--expenses-module-only-required-if-exporting-reimbursable-expenses-as-expense-reports-1">Step 2: Enable the Time &amp; Expenses module (Only required if exporting reimbursable expenses as Expense Reports)</h3>
+
+<p>The T&amp;E module often comes standard on your Sage Intacct instance, but you may need to enable it if it was not a part of your initial Sage Intacct implementation. Enabling the T&amp;E module is a paid subscription through Sage Intacct. Please reach out to your Sage Intacct account manager with any questions on the costs of enabling this module. It’s required for our integration and takes just a few minutes to configure.</p>
+
+<p>In Sage Intacct, click on the <strong>Company</strong> menu &gt; <strong>Subscriptions</strong> &gt; <strong>Time &amp; Expenses</strong> and click the toggle to subscribe.</p>
+
+<p>Once you’ve enabled T&amp;E, you’ll need to configure it properly:</p>
+<ul>
+  <li>Ensure that <strong>Expense types</strong> is checked.</li>
+  <li>Under Auto-numbering sequences, please set the following:
+    <ul>
+      <li>To create the EXP sequence, click on the down arrow on the expense report line &gt; <strong>Add</strong></li>
+      <li>Sequence ID: EXP</li>
+      <li>Print Title: EXPENSE REPORT</li>
+      <li>Starting Number: 1</li>
+      <li>Next Number: 2</li>
+      <li>Once you’ve done this, select <strong>Advanced Settings</strong></li>
+      <li>Fixed Number Length: 4</li>
+      <li>Fixed Prefix: EXP</li>
+      <li>Once you’ve done this, hit <strong>Save</strong></li>
+    </ul>
+  </li>
+  <li>Under Expense Report approval settings, make sure the “Enable expense report approval” is unchecked.</li>
+  <li>Click <strong>Save</strong>!</li>
+</ul>
+
+<h3 id="step-3-set-up-employees-in-sage-intacct-only-required-if-exporting-reimbursable-expenses-as-expense-reports-1">Step 3: Set up Employees in Sage Intacct (Only required if exporting reimbursable expenses as Expense Reports)</h3>
+
+<p>In order to set up Employees, go to <strong>Time &amp; Expenses</strong> &gt; click the plus button next to <strong>Employees</strong>. If you don’t see Time &amp; Expense in the top ribbon, you may need to adjust your settings by going to <strong>Company &gt; Roles &gt; Time &amp; Expenses &gt; Enable all permissions</strong>. To create an employee, you’ll need to insert the following information:</p>
+<ul>
+  <li>Employee ID</li>
+  <li>Primary contact name</li>
+  <li>Email address (click the dropdown arrow in the Primary contact name field) &gt; select the employee if they’ve already been created. Otherwise click <strong>+ Add</strong> &gt; fill in their Primary Email Address along with any other information you require.</li>
+</ul>
+
+<h3 id="step-4-set-up-expense-types-in-sage-intacct-only-required-if-exporting-reimbursable-expenses-as-expense-reports-1">Step 4: Set up Expense Types in Sage Intacct (only required if exporting reimbursable expenses as Expense Reports)</h3>
+
+<p>Expense Types are a user-friendly way of displaying the names of your expense accounts to your employees. They are required for our integration. In order to set up Expense Types, you’ll first need to setup your Chart of Accounts (these can be set up in bulk by going to <strong>Company &gt; Open Setup &gt; Company Setup Checklist &gt; click Import</strong>).</p>
+
+<p>Once you’ve setup your Chart of Accounts, to set Expense Types, go to <strong>Time &amp; Expense</strong> &gt; <strong>Open Setup</strong> &gt; click the plus button next to <strong>Expense Types</strong>. For each Expense Type, you’ll need to include the following information:</p>
+<ul>
+  <li>Expense Type</li>
+  <li>Description</li>
+  <li>Account Number (from your GL)</li>
+</ul>
+
+<h3 id="step-5-enable-customization-services-1">Step 5: Enable Customization Services</h3>
+
+<p>To enable, go <strong>Company &gt; Subscriptions &gt; Customization Services</strong> (if you already have Platform Services enabled, you will skip this step).</p>
+
+<h3 id="step-6-create-a-test-workspace-in-expensify-and-download--expensify-package">Step 6: Create a test workspace in Expensify and download  <a href="https://www.expensify.com/tools/integrations/downloadPackage">Expensify Package</a></h3>
+
+<p>The test workspace will be used as a sandbox environment where we can test before going live with the integration. If you’re already using Expensify, creating a test workspace will ensure that your existing group workspace rules, approval workflow, etc remain intact. In order to set this up:</p>
+
+<ul>
+  <li>Go to <strong>expensify.com &gt; Settings &gt; Workspaces &gt; New Workspace</strong></li>
+  <li>Name the workspace something like “Sage Intacct Test Workspace”</li>
+  <li>Go to <strong>Connections &gt; Sage Intacct &gt; Connect to Sage Intacct</strong></li>
+  <li>Select <strong>Download Package</strong> (All you need to do is download the file. We’ll upload it from your Downloads folder later).</li>
+</ul>
+
+<h3 id="step-7-upload-package-in-sage-intacct-1">Step 7: Upload Package in Sage Intacct</h3>
+
+<p>If you use Customization Services:</p>
+
+<ul>
+  <li><strong>Customization Services &gt; Custom Packages &gt; New Package &gt; Choose File &gt;</strong> select the Package file from your downloads folder &gt; Import</li>
+</ul>
+
+<p>If you use Platform Services:</p>
+
+<ul>
+  <li><strong>Platform Services &gt; Custom Packages &gt; New Package &gt; Choose File &gt;</strong> select the Package file from your downloads folder &gt; Import</li>
+</ul>
+
+<h3 id="step-8-add-web-services-authorization-1">Step 8: Add web services authorization</h3>
+
+<ul>
+  <li>Go to <strong>Company &gt; Company Info &gt; Security</strong> in Intacct and click Edit. Next, scroll down to Web Services authorizations and add “expensify” (this must be all lower case) as a Sender ID.</li>
+</ul>
+
+<h3 id="step-9-enter-credentials-and-connect-expensify-and-sage-intacct-1">Step 9: Enter credentials and connect Expensify and Sage Intacct</h3>
+
+<ul>
+  <li>Now, go back to <strong>Settings &gt; Workspaces &gt; Group &gt; [Workspace Name] &gt; Connections &gt; Configure &gt; Connect to Sage Intacct</strong> and enter the credentials that you’ve set for your web services user. Click Send once you’re done.</li>
+</ul>
+
+<p>Next, follow the links in the related articles section below to complete the configuration for the Export, Coding, and Advanced tabs of the connection settings.</p>
+
+<h2 id="role-based-permissions---vendor-bills">Role-based Permissions - Vendor Bills</h2>
+
+<p>Follow the steps below to set up Sage Intacct with role-based permissions and export Vendor Bills:</p>
+
+<h3 id="checklist-of-items-to-complete-2">Checklist of items to complete:</h3>
+
+<ol>
+  <li>Create a web services user and configure permissions.</li>
+  <li>Enable Customization Services (if not using Platform Services).</li>
+  <li>Create a test workspace in Expensify and download the <a href="https://www.expensify.com/tools/integrations/downloadPackage">Expensify Package</a>.</li>
+  <li>Upload the Package in Sage Intacct.</li>
+  <li>Add web services authorization.</li>
+  <li>Enter credentials and connect Expensify and Sage Intacct.</li>
+  <li>Configure integration sync options.</li>
+</ol>
+
+<h3 id="step-1-create-a-web-services-user-with-role-based-permissions-1">Step 1: Create a web services user with role-based permissions</h3>
+
+<p>In Sage Intacct:</p>
+<ul>
+  <li>Navigate to “Company” and click the <strong>+</strong> button next to “Roles.”</li>
+  <li>Name the role and click <strong>Save</strong>.</li>
+  <li>Go to “Roles” &gt; “Subscriptions” for the “Expensify” role you created.</li>
+  <li>Set the permissions for this role by clicking the checkbox and then clicking on the Permissions hyperlink</li>
+</ul>
+
+<p>These are the permissions required for a user to export reimbursable expenses as Vendor Bills:</p>
+<ul>
+  <li><strong>Administration (All)</strong></li>
+  <li><strong>Company (Read-only)</strong></li>
+  <li><strong>Cash Management (All)</strong></li>
+  <li><strong>General Ledger (All)</strong></li>
+  <li><strong>Time &amp; Expense (All)</strong></li>
+  <li><strong>Projects (Read-only)</strong> (only needed if using Projects and Customers)</li>
+  <li>
+    <p><strong>Accounts Payable (All)</strong> (only needed for exporting non-reimbursable expenses as vendor bills)</p>
+  </li>
+  <li>Create a web services user:
+    <ul>
+      <li>Go to <strong>Company &gt; Web Services Users &gt; New</strong></li>
+      <li>Configure the user as follows:
+        <ul>
+          <li>User ID: “xmlgateway_expensify”</li>
+          <li>Last Name and First Name: “Expensify”</li>
+          <li>Email Address: Your shared accounting team email</li>
+          <li>User Type: “Business”</li>
+          <li>Admin Privileges: “Full”</li>
+          <li>Status: “Active”</li>
+        </ul>
+      </li>
+      <li>To assign the role, go to “Roles Information”, click the <strong>+</strong> button, find the “Expensify” role, and click <strong>Save</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="step-2-enable-customization-services">Step 2: Enable Customization Services</h3>
+
+<p>Only required if you don’t already use Platform Services:</p>
+<ul>
+  <li>To enable, go to <strong>Company &gt; Subscriptions &gt; Customization Services</strong></li>
+</ul>
+
+<h3 id="step-3-create-a-test-workspace-in-expensify-and-download-the--expensify-package">Step 3: Create a test workspace in Expensify and download the  <a href="https://www.expensify.com/tools/integrations/downloadPackage">Expensify Package</a></h3>
+
+<p>Create a test workspace in Expensify:</p>
+<ul>
+  <li>Go to <strong>Settings &gt; Workspaces</strong> and click <strong>New Workspace</strong> on the Expensify website.</li>
+  <li>Name the workspace something like “Sage Intacct Test Workspace.”</li>
+  <li>Once created, navigate to <strong>Settings &gt; Workspaces &gt; [Group Workspace Name] &gt; Connections &gt; Accounting Integrations &gt; Connect to Sage Intacct</strong></li>
+  <li>Select <strong>Create a new Sage Intacct connection/Connect to Sage Intacct</strong></li>
+  <li>Select <strong>Download Package</strong> (We’ll upload it from your Downloads folder later.)</li>
+</ul>
+
+<h3 id="step-4-upload-package-in-sage-intacct">Step 4: Upload Package in Sage Intacct</h3>
+
+<p>If you use <strong>Customization Services</strong>:</p>
+<ul>
+  <li>Go to <strong>Customization Services &gt; Custom Packages &gt; New Package &gt; Choose File &gt; select the Package file from your downloads folder &gt; Import</strong>.</li>
+</ul>
+
+<p>If you use <strong>Platform Services</strong>:</p>
+<ul>
+  <li>Go to <strong>Platform Services &gt; Custom Packages &gt; New Package &gt; Choose File &gt; select the Package file from your downloads folder &gt; Import</strong>.</li>
+</ul>
+
+<h3 id="step-5-add-web-services-authorization-1">Step 5: Add web services authorization</h3>
+
+<ul>
+  <li>Go to <strong>Company &gt; Company Info &gt; Security</strong> in Intacct and click <strong>Edit</strong></li>
+  <li>Scroll down to <strong>Web Services Authorizations</strong> and add <strong>expensify</strong> (all lowercase) as a Sender ID.</li>
+</ul>
+
+<h3 id="step-6-enter-credentials-and-connect-expensify-and-sage-intacct">Step 6: Enter credentials and connect Expensify and Sage Intacct</h3>
+
+<p>Now, go back to <strong>Settings &gt; Workspaces &gt; [Group Workspace Name] &gt; Connections &gt; Accounting Integrations &gt; Configure &gt; Connect to Sage Intacct</strong> and enter the credentials you set for your web services user. Click <strong>Send</strong> when finished.</p>
+
+<h3 id="step-7-configure-your-connection">Step 7: Configure your connection</h3>
+
+<p>Once the initial sync completes, you may receive the error “No Expense Types Found” if you’re not using the Time and Expenses module. Close the error dialogue, and your configuration options will appear. Switch the reimbursable export option to <strong>Vendor Bills</strong> and click <strong>Save</strong> before completing your configuration.</p>
+
+<p>Next, refer to the <a href="https://help.expensify.com/articles/expensify-classic/connections/sage-intacct/Configure-Sage-Intacct">Configure Sage Intacct</a> article to finish setting up the Export, Coding, and Advanced tabs of the connection configuration.</p>
+
+            </div>
+            
+        </div>
+
+        <!-- Concierge button at the bottom of the page -->
+        
+
+
+
+        <div class="get-help">
+            <h2 class="title with-margin">Didn't find what you were looking for?</h2>
+            <p class="description">Concierge is here to answer all your questions.</p>
+            <a href="https://dev.new.expensify.com:8082/concierge" target="_blank">
+                <div class="submit-button">
+                    <button class="success">Send a message</button>
+                </div>
+            </a>
+        </div>
+
+        <div id="footer">
+            <div class="page-footer">
+    <div class="page-footer__wrapper">
+        <div class="columns">
+            <div class="column">
+                <h3>Features</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/expense-management" alt="Expense Management" target="_blank">Expense Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/spend-management" alt="Spend Management" target="_blank">Spend Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/expense-reports" alt="Expense Reports" target="_blank">Expense Reports</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/company-credit-card" alt="Company Credit Card" target="_blank">Company Credit Card</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/receipt-scanning-app" alt="Receipt Scanning App" target="_blank">Receipt Scanning App</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/bills" alt="Bill Pay" target="_blank">Bill Pay</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/invoices" alt="Invoicing" target="_blank">Invoicing</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/payroll" alt="Payroll" target="_blank">Payroll</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/travel" alt="Travel" target="_blank">Travel</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Resources</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/accountants" alt="ExpensifyApproved!" target="_blank">ExpensifyApproved!</a>
+                    </li>
+
+                    <li>
+                        <a href="https://use.expensify.com/press-kit" alt="Press Kit" target="_blank">Press Kit</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/support" alt="Support" target="_blank">Support</a>
+                    </li>
+                    <li>
+                        <a href="https://help.expensify.com/" alt="ExpensifyHelp" target="_blank">ExpensifyHelp</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/terms" alt="Terms" target="_blank">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/privacy" alt="Privacy" target="_blank">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Learn more</h3>
+                <ul>
+                    <li>
+                        <a href="https://we.are.expensify.com/how-we-got-here" alt="About Expensify" target="_blank">About Expensify</a>
+                    </li>
+                    <li>
+                        <a href="https://blog.expensify.com/" alt="Blog" target="_blank">Blog</a>
+                    </li>
+                    <li>
+                        <a href="https://we.are.expensify.com/" alt="Jobs" target="_blank">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.org" alt="Expensify.org" target="_blank">Expensify.org</a>
+                    </li>
+                    <li>
+                        <a href="https://ir.expensify.com" alt="Investor Relations" target="_blank">Investor Relations</a>
+                    </li>
+                </ul>
+
+                <div class="page-footer__social-icons">
+                    <a href="https://we.are.expensify.com/podcast" class="social-media-link expensicons expensicons-podcast">
+                        <img src="/assets/images/social-podcast.svg" alt="Podcast" width="24" height="24">
+                    </a>
+                    <a href="https://www.twitter.com/expensify" class="social-media-link expensicons expensicons-twitter" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-twitter.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.instagram.com/expensify" class="social-media-link expensicons expensicons-instagram" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-instagram.svg" alt="Instagram" width="24" height="24">
+                    </a>
+                    <a href="https://www.facebook.com/expensify" class="social-media-link expensicons expensicons-facebook" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-facebook.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.linkedin.com/company/expensify" class="social-media-link expensicons expensicons-linkedin" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Get Started</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.expensify.com" alt="Create A New Account" target="_blank">Create A New Account</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.expensify.com" alt="Log In" target="_blank">Log In</a>
+                    </li>
+                </ul>
+
+                <p id="footer-copywrite-date" class="page-footer__fine-print"></p>
+            </div>
+        </div>
+
+        <p class="page-footer__fine-print">The Expensify Visa® Commercial Card is issued by The Bancorp Bank, N.A., Member FDIC, pursuant to a license from Visa U.S.A. Inc. and may not be used at all merchants that accept Visa cards. Apple® and the Apple logo® are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</p>
+
+        <div class="page-footer__logo">
+            <img src="/assets/images/expensify-footer-logo.svg" alt="Expensify" />
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>

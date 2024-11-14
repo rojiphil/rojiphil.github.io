@@ -1,10 +1,1185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
     <url>
-        <loc>https://help.expensify.com</loc>
-        <lastmod>2023-07-27</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/ADP</loc>
     </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/accelo/Accelo-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/copilots-and-delegates/Act-as-a-copilot</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/domains/Add-Domain-Members-and-Admins</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expensify-card/Add-Expensify-Card-to-Apple-or-Google-Pay</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Add-Invoices-in-Bulk</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/bank-accounts/Add-Personal-Australian-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/billing-and-subscriptions/Add-a-payment-card-and-view-your-subscription</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Add-an-expense</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/workspaces/Add-approvals</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Add-comments-and-attachments-to-a-report</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Add-custom-fields-to-reports-and-invoices</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Add-expenses-to-a-report</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Add-expenses-to-a-report</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Add-or-Act-As-a-Copilot</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Add-personal-information</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Add-profile-photo</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/settings/Add-profile-photo</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Admin-Card-Settings-and-Features</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Admin-offboarding-checklist</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Apply-Tax</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Approve-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/travel/Approve-travel-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/travel/Approve-travel-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/copilots-and-delegates/Approving-Reports</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Assign-Technical-Contact</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Assign-billing-owner-and-payment-account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/copilots-and-delegates/Assign-or-remove-a-Copilot</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Assign-report-approvers-to-specific-employees</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Assign-tag-and-category-approvers</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Automatic-Receipt-Audit</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Automatically-submit-employee-reports</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-billing/Billing-Overview</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/billing-and-subscriptions/Billing-page</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/travel/Book-with-Expensify-Travel</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/travel/Book-with-Expensify-Travel</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/payments/Cancel-an-ACH-Reimbursement</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-partner-program/Card-Revenue-Share</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Cardholder-Settings-and-Features</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/certinia/Certinia-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Change-Expensify-Card-limit</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-billing/Change-Plan-Or-Subscription</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Change-member-workspace-roles</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Change-or-add-email-address</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/settings/Change-or-add-email-address</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expensify-card/Check-Expensify-Card-limit</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/domains/Claim-And-Verify-A-Domain</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Close-account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/settings/Close-or-reopen-account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/accelo/Configure-Accelo</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/certinia/Configure-Certinia</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connect-credit-cards/company-cards/Configure-Company-Card-Settings</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/netsuite/Configure-Netsuite</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/netsuite/Configure-Netsuite</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/quickbooks-desktop/Configure-Quickbooks-Desktop</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/quickbooks-online/Configure-Quickbooks-Online</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/quickbooks-online/Configure-Quickbooks-Online</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Configure-Reimbursement-Settings</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/sage-intacct/Configure-Sage-Intacct</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/sage-intacct/Configure-Sage-Intacct</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/xero/Configure-Xero</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/xero/Configure-Xero</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/travel/Configure-travel-policy-and-preferences</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/travel/Configure-travel-policy-and-preferences</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connect-credit-cards/company-cards/Connect-ANZ</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/bank-accounts/Connect-Personal-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/accelo/Connect-To-Accelo</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/certinia/Connect-To-Certinia</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/netsuite/Connect-To-NetSuite</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/quickbooks-desktop/Connect-To-QuickBooks-Desktop</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/quickbooks-online/Connect-To-QuickBooks-Online</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/sage-intacct/Connect-To-Sage-Intacct</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/xero/Connect-To-Xero</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/bank-accounts/Connect-US-Business-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Connect-a-Business-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Connect-a-Personal-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/netsuite/Connect-to-NetSuite</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/quickbooks-online/Connect-to-QuickBooks-Online</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/sage-intacct/Connect-to-Sage-Intacct</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/xero/Connect-to-Xero</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-billing/Consolidated-Domain-Billing</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/domains/Create-A-Group</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/getting-started/Create-a-company-workspace</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/getting-started/Create-a-company-workspace</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Create-a-group-workspace</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/Create-a-new-chat</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Create-a-report-approval-workflow</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/getting-started/Create-a-workspace-for-yourself</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Create-an-expense</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/payments/Create-and-Pay-Bills</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Create-categories</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/workspaces/Create-expense-categories</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/workspaces/Create-expense-tags</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Create-tags</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/spending-insights/Custom-Templates</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Deactivate-or-cancel-an-Expensify-Card</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Deel</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/spending-insights/Default-Export-Templates</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/copilots-and-delegates/Delegate-when-out-of-office</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connect-credit-cards/company-cards/Direct-Bank-Connections</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/bank-accounts/Disconnect-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Dispute-A-Transaction</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expensify-card/Dispute-Expensify-Card-transaction</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Distance-Requests</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/domains/Domain-Migration</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Duplicate-detection</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Edit-a-report</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/travel/Edit-or-cancel-travel-arrangements</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/travel/Edit-or-cancel-travel-arrangements</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/Edit-or-delete-messages</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Egencia</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/bank-accounts/Enable-Australian-Reimbursements</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expensify-card/Enable-Expensify-Card-notifications</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/bank-accounts/Enable-Global-Reimbursements</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/workspaces/Enable-Report-Fields</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Enable-Two-Factor-Authentication</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Enable-and-set-up-expense-violations</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Enable-per-diem-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/settings/Enable-two-factor-authentication</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Encryption-and-Data-Security</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Expense-Rules</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Expense-Settings</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Expense-Types</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Expensify-Card-Perks</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Expensify-Card-Reconciliation</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/Expensify-Chat-rooms-for-admins</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/Hidden/Expensify-Lounge</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/getting-started/playbooks/Expensify-Playbook-For-Small-To-Medium-Sized-Businesses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/getting-started/playbooks/Expensify-Playbook-For-US-Based-Bootstrapped-Startups</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/getting-started/playbooks/Expensify-Playbook-For-US-Based-VC-Backed-Startups</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/travel/Expensify-Travel-demo-video</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Export-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Export-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/Flag-chat-messages</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/spending-insights/Fringe-Benefits</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/General-product-troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/settings/General-product-troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/payments/Get-reimbursed-faster-as-a-non-US-employee</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Global-VaTax</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Google-Apps-SSO</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Greenhouse</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Gusto</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/How-Complex-Approval-Workflows-Work</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connect-credit-cards/company-cards/Import-Company-Cards-From-CSV</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Indirect-Accounting-Integrations</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/spending-insights/Insights</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Invite-members-and-assign-roles</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/Invite-members-to-a-chat-group-or-room</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/getting-started/Join-your-company&apos;s-workspace</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/getting-started/Join-your-company&apos;s-workspace</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/Leave-a-chat-room</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Lyft</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expensify-card/Manage-Expensify-Cards</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/settings/Manage-devices</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/Hidden/Manually-submit-reports-for-approval</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/settings/Merge-accounts</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Merge-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Navan</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Navigate-multiple-workspaces</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/netsuite/Netsuite-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/netsuite/Netsuite-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/spending-insights/Other-Export-Options</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-billing/Out-of-date-Billing</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-partner-program/Partner-Billing-Guide</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/payments/Pay-an-Invoice</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Pay-an-invoice</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connect-credit-cards/Personal-Credit-Cards</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Personal-and-Corporate-Karma</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/billing-and-subscriptions/Plan-types-and-pricing</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Preferences</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Print-or-download-a-report</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/QuickBooks-Time</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/quickbooks-desktop/Quickbooks-Desktop-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/quickbooks-online/Quickbooks-Online-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/quickbooks-online/Quickbooks-Online-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-billing/Receipt-Breakdown</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/payments/Receive-Payments</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connect-credit-cards/company-cards/Reconciliation</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-partner-program/Referral-Program</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/payments/Reimburse-Australian-Reports</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/payments/Reimburse-Reports</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Remove-Members</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/Reorder-chat-inbox</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Report-statuses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Request-the-Card</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Require-review-for-over-limit-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/workspaces/Require-tags-and-categories-for-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Resolve-Errors-Adding-a-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/bank-accounts/Revoke-Access-to-Verified-Business-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Rippling</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/domains/SAML-SSO</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/sage-intacct/Sage-Intacct-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/sage-intacct/Sage-Intacct-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Send-an-invoice</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Send-and-Receive-Payment-for-Invoices</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/Send-and-format-chat-messages</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Set-Currency</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/settings/Set-Notifications</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connect-credit-cards/company-cards/Set-Up-Commercial-Card-Feeds</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Set-Up-Invoicing</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Set-Up-the-Expensify-Visa%C2%AE-Commercial-Card-for-your-Company</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Set-a-random-report-audit-schedule</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Set-budgets</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Set-default-report-title</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/workspaces/Set-distance-rates</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Set-time-and-distance-rates</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/settings/Set-time-zone</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Set-timezone</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Set-up-category-automation</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expensify-card/Set-up-the-Expensify-Card</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/workspaces/Set-up-workflows</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Set-up-your-individual-workspace</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Set-up-your-wallet</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/bank-accounts/Share-Verified-Business-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Split-an-expense</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Split-an-expense</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/Start-a-conversation-thread</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Statements</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Submit-or-retract-a-report</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/domains/Switch-Domain-Member-to-Admin</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Switch-account-language-to-Spanish</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Switch-to-light-or-dark-mode</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-billing/Tax-Exempt</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/workspaces/Tax-Tracking</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/The-Expenses-Page</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/bank-accounts-and-payments/Third-Party-Payments</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/travel/Track-Travel-Analytics</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Track-expenses</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/reports/Track-report-history</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/workspaces/Track-taxes</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Travel-receipt-integrations</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/TravelPerk</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expenses/Trips</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connect-credit-cards/company-cards/Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Uber</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-card/Unlimited-Virtual-Cards</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Unlock-a-Business-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Update-Notification-Preferences</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expensify-card/Update-your-Expensify-Card-mailing-address</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Update-your-name</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Update-your-profile-status</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/settings/Update-your-pronouns</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/Hidden/Upgrade-to-a-Collect-Plan</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expensify-card/Upgrade-to-the-new-Expensify-Card-from-Visa</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expensify-card/Use-your-Expensify-Card</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/expenses-&amp;-payments/Validate-a-Business-Bank-Account</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Workday</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/xero/Xero-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/connections/xero/Xero-Troubleshooting</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/expensify-partner-program/Your-Expensify-Partner-Manager</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/expensify-classic/connections/Zenefits</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connections/accelo</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/chat/assign-a-task</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/bank-accounts-and-payments/bank-accounts</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connections/certinia</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connect-credit-cards/company-cards</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/domains/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/expenses/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/expensify-billing/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/bank-accounts-and-payments/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/expensify-partner-program/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/settings/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/expenses-&amp;-payments/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/chat/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/billing-and-subscriptions/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/workspaces/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/expensify-card/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/connections/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/getting-started/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/travel/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/settings/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/workspaces/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/copilots-and-delegates/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/expensify-card/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/spending-insights/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connections/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/getting-started/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connect-credit-cards/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/travel/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/reports/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/articles/new-expensify/travel/manage-travel-member-roles</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/connections/netsuite</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connections/netsuite</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/bank-accounts-and-payments/payments</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/getting-started/playbooks</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connections/quickbooks-desktop</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connections/quickbooks-online</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/connections/quickbooks-online</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connections/sage-intacct</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/connections/sage-intacct</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/new-expensify/hubs/connections/xero</loc>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/expensify-classic/hubs/connections/xero</loc>
+    </url>
+  
 </urlset>

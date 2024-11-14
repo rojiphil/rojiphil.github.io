@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src https://kit.fontawesome.com https://cdnjs.cloudflare.com https://www.google.com https://www.gstatic.com/ https://cse.google.com http://cse.google.com https://partner.googleadservices.com/ https://cdnjs.cloudflare.com/ajax/libs/tocbot/ https://www.googletagmanager.com 'self' 'unsafe-eval' 'unsafe-inline'; style-src cdnjs.cloudflare.com cse.google.com www.google.com ka-f.fontawesome.com fonts.googleapis.com 'self' 'unsafe-inline'" >
+    <title>Expensify Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="icon" type="image/png" href="/assets/images/expensify-logo-round.png">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.css">
+
+    <script src="https://kit.fontawesome.com/263e5e8608.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script defer src="/assets/js/platform-tabs.js"></script>
+    <script defer src="/assets/js/selector.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=4149bc31c5c314a1a"></script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-TQBQW7CR');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- SEO tags -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Managing Single Sign-On (SSO) and User Authentication in Expensify | Expensify Help</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Managing Single Sign-On (SSO) and User Authentication in Expensify" />
+<meta name="author" content="Expensify" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Learn how to effectively manage Single Sign-On (SSO) and user authentication in Expensify alongside your preferred SSO provider. Our comprehensive guide covers SSO setup, domain verification, and specific instructions for popular providers like AWS, Okta, and Microsoft Azure. Streamline user access and enhance security with Expensify’s SAML-based SSO integration." />
+<meta property="og:description" content="Learn how to effectively manage Single Sign-On (SSO) and user authentication in Expensify alongside your preferred SSO provider. Our comprehensive guide covers SSO setup, domain verification, and specific instructions for popular providers like AWS, Okta, and Microsoft Azure. Streamline user access and enhance security with Expensify’s SAML-based SSO integration." />
+<link rel="canonical" href="http://localhost:4000/articles/expensify-classic/domains/SAML-SSO.html" />
+<meta property="og:url" content="http://localhost:4000/articles/expensify-classic/domains/SAML-SSO.html" />
+<meta property="og:site_name" content="Expensify Help" />
+<meta property="og:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="twitter:title" content="Managing Single Sign-On (SSO) and User Authentication in Expensify" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Expensify"},"description":"Learn how to effectively manage Single Sign-On (SSO) and user authentication in Expensify alongside your preferred SSO provider. Our comprehensive guide covers SSO setup, domain verification, and specific instructions for popular providers like AWS, Okta, and Microsoft Azure. Streamline user access and enhance security with Expensify’s SAML-based SSO integration.","headline":"Managing Single Sign-On (SSO) and User Authentication in Expensify","image":"http://localhost:4000/assets/images/og-preview-image.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/expensify-help.svg"},"name":"Expensify"},"url":"http://localhost:4000/articles/expensify-classic/domains/SAML-SSO.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBQW7CR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="lhn">
+
+        <div class="lhn-header">
+            <div class="flex">
+                <div id="header-button">
+                    <img id="angle-up-icon" src="/assets/images/arrow-up.svg" class="base-icon hide"></img>
+                    <img id="bars-icon" src="/assets/images/menu.svg" class="base-icon"></img>
+                </div>
+                <div>
+                    <a href="/">
+                        <img src="/assets/images/expensify-help.svg" class="logo" />
+                    </a>
+                </div>
+                <!-- Search icons that'll open the Sidebar Search sections -->
+                <div class="search-icon">
+    <a onclick="openSidebar()" id="toggle-search-open">
+        <img src="/assets/images/search.svg" class="base-icon" />
+    </a>
+</div>
+
+            </div>
+        </div>
+
+        <!-- Sidebar Search sections -->
+        <div id="sidebar-layer">
+    <div id="sidebar-search" class="sidebar">
+        <div class="flex searchbar-title-wrapper">
+            <a id="toggle-search-close">
+                <img src="/assets/images/back-left.svg" class="base-icon" />
+            </a>
+            <h4 class="search-title">Search</h4>
+        </div>
+        <!-- As the search box is being managed by Embed script from Google, the way search work is on via on Enter / Search Icon -->
+        <div class="gcse-searchbox" data-enableHistory="false"></div>
+        <div class="gcse-searchresults"></div>
+    </div>
+</div>
+
+
+        <!-- LHN content (Main navigation tree or Article TOC) -->
+        <div id="lhn-content">
+            
+                <div id="back-button" class="icon-with-link">
+                    <img src="/assets/images/back-left.svg" class="base-icon"></img>
+                    <div class="link">Back</div>
+                </div>
+                <div class="article-toc"></div>
+            
+        </div>
+    </div>
+
+    <div id="content-area">
+
+        <div id="article-content">
+            <!-- Article title (only shown in article pages) -->
+            
+            <div class="title-platform-tabs">
+                <h1 class="title">
+                    SAML SSO
+                </h1>
+                <div id="platform-tabs">
+                </div>
+            </div>
+            <div class="article-toc-content article">
+                <h1 id="using-sso-in-expensify">Using SSO in Expensify</h1>
+<p>Before setting up Single Sign-On with Expensify you will need to make sure the <a href="https://help.expensify.com/articles/expensify-classic/domains/Claim-And-Verify-A-Domain#step-2-verify-domain-ownership">domain is verified</a>.</p>
+
+<p>Once the domain is verified, you can access the SSO settings by navigating to Settings &gt; Domains &gt; [Domain Name] &gt; SAML.</p>
+
+<h2 id="the-domains-page">The Domains page</h2>
+<p><strong>On this page, you can:</strong></p>
+<ul>
+  <li>Get Expensify’s Service Provider MetaData. You will need to give this to your identity provider.</li>
+  <li>Enter your Identity Provider MetaData. Please contact your SAML SSO provider if you are unsure how to get this.</li>
+  <li>Choose whether you want to make SAML SSO required for login. If you choose this option, members will only be able to log in to Expensify via SAML SSO.</li>
+</ul>
+
+<p><strong>Below are instructions for setting up Expensify for specific SSO providers:</strong></p>
+<ul>
+  <li><a href="https://static.global.sso.amazonaws.com/app-202a715cb67cddd9/instructions/index.htm">Amazon Web Services (AWS SSO)</a></li>
+  <li><a href="https://support.google.com/a/answer/7371682">Google SAML</a> (for GSuite, not Google SSO)</li>
+  <li><a href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-saas-expensify-tutorial/">Microsoft Azure Active Directory</a></li>
+  <li><a href="https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Expensify.html">Okta</a></li>
+  <li><a href="https://onelogin.service-now.com/support?id=kb_article&amp;sys_id=e44c9e52db187410fe39dde7489619ba">OneLogin</a></li>
+  <li><a href="https://docs.oracle.com/en/cloud/paas/identity-cloud/idcsc/expensify.html#Expensify">Oracle Identity Cloud Service</a></li>
+  <li><a href="https://saaspass.com/saaspass/expensify-two-factor-authentication-2fa-single-sign-on-sso-saml.html">SAASPASS</a></li>
+  <li>Microsoft Active Directory Federation Services (see instructions in the FAQ section below)</li>
+</ul>
+
+<p>If your provider is not listed, please contact them and request instructions.</p>
+
+<p>When SSO is enabled, employees will be prompted to sign in through Single Sign-On when using their company email (private domain email) and also a public email (e.g. gmail.com) linked as a <a href="https://help.expensify.com/articles/expensify-classic/settings/Change-or-add-email-address">Secondary Login</a>.</p>
+
+<details>
+  <summary id="faq">FAQ</summary>
+
+  <h2 id="what-should-i-do-if-im-getting-an-error-when-trying-to-set-up-sso">What should I do if I’m getting an error when trying to set up SSO?</h2>
+  <p>You can double-check your configuration data for errors using samltool.com. If you’re still having issues, you can contact your Account Manager or Concierge for assistance.</p>
+
+  <h2 id="what-is-the-entityid-for-expensify">What is the EntityID for Expensify?</h2>
+  <p>The entityID for Expensify is https://expensify.com. Remember not to copy and paste any extra slashes or spaces. If you’ve enabled the Multi-Domain support (see below) then your entityID will be https://expensify.com/mydomainname.com.</p>
+
+  <h2 id="can-you-have-multiple-domains-with-only-one-entity-id">Can you have multiple domains with only one entity ID?</h2>
+  <p>Yes. Please send a message to the Concierge or your account manager, and we will enable the use of the same entity ID with multiple domains.</p>
+
+  <h2 id="how-can-i-update-the-microsoft-azure-sso-certificate">How can I update the Microsoft Azure SSO Certificate?</h2>
+  <p>Expensify’s SAML configuration doesn’t support multiple active certificates. This means that if you create the new certification ahead of time without first removing the old one, the respective IDP will include two unique x509 certificates instead of one, and the connection will break. Should you need to access Expensify, switching back to the old certificate will continue to allow access while that certificate is still valid.</p>
+
+  <p><strong>To transfer from one Microsoft Azure certificate to another, please follow the below steps:</strong></p>
+  <ol>
+    <li>In Azure Directory, create your new certificate.</li>
+    <li>In Azure Director, remove the old, expiring certificate.</li>
+    <li>In Azure Directory, activate the remaining certificate and get a new IDP for Expensify from it.</li>
+    <li>In Expensify, replace the previous IDP with the new IDP.</li>
+    <li>Log in via SSO. If login continues to fail, write to Concierge for assistance.</li>
+  </ol>
+
+  <h2 id="how-can-i-enable-deactivating-users-with-the-okta-sso-integration">How can I enable “deactivating users” with the Okta SSO integration?</h2>
+  <p>Companies using Okta can deactivate users in Expensify using the Okta SCIM API:</p>
+  <ul>
+    <li>When a user is deactivated in Okta, their access to Expensify expires, and they are logged out of both the web and mobile apps.</li>
+    <li>Deactivating a user through Okta will not close their account in Expensify</li>
+    <li>If you are offboarding this employee, you will still want to close the account.</li>
+    <li>A verified domain and a complete SAML setup are required before you can configure the deactivation feature.</li>
+  </ul>
+
+  <p><strong>To enable deactivating users in Okta, follow these steps:</strong></p>
+  <ol>
+    <li>In Expensify, head to <em>Settings &gt; Domains &gt; _[Domain Name]_ &gt; SAML</em></li>
+    <li>Ensure that the toggle is set to Enabled for <em>SAML Login</em> and <em>Required for login</em></li>
+    <li>In Okta, go to <em>Admin &gt; Applications &gt; Add Application</em></li>
+    <li>Search for Expensify and click on Add.</li>
+    <li>On the next screen, enter your company domain (e.g. yourcompany.com).</li>
+    <li>In the tab Sign-On Options, click <em>Next</em> (leaving default settings).</li>
+    <li>In the tab Assign to People, click <em>Next</em> and then click Done.</li>
+    <li>Next, in Okta, go to <em>Admin &gt; Applications &gt; Expensify &gt; Sign On &gt; View Setup Instructions</em> and follow the steps listed.</li>
+    <li>Then, go to <em>Directory &gt; Profile Editor &gt; Okta user &gt; Profile</em></li>
+    <li>Click the information bubble to the right of the <em>First name</em> and <em>Last name</em> attributes</li>
+    <li>Uncheck <em>Yes</em> under <em>Attribute required</em> field and press <em>Save Attribute</em>.</li>
+    <li>Email concierge@expensify.com, providing your domain, and request that Okta SCIM be enabled. You will receive a response when this step has been completed.</li>
+    <li>In Expensify, go to <em>Domains &gt; _[Domain Name]_ &gt; SAML &gt; Show Token</em> and copy the Okta SCIM Token you received.</li>
+    <li>In Okta, go to <em>Admin &gt; Applications &gt; Expensify &gt; Provisioning &gt; API Integration &gt;  Configure API Integration</em></li>
+    <li>Select Enable API Integration, paste the Okta SCIM Token in the API Token field, and then click Save.</li>
+    <li>Go to To App, click Edit Provisioning Users, select Enable Deactivate Users, and then Save. (You may also need to set up the Expensify Attribute Mappings if you have not previously in steps 9-11).</li>
+  </ol>
+
+  <p>Successful activation of this function will be indicated by the green Push User Deactivation icon being enabled at the top of the app page.</p>
+
+  <h2 id="how-do-i-set-up-the-saml-authentication-with-microsoft-adfs">How do I set up the SAML authentication with Microsoft ADFS?</h2>
+  <p>Before getting started, you will need a verified domain and Control plan to set up SSO with Microsoft ADFS.</p>
+
+  <p><strong>To enable SSO with Microsoft ADFS follow these steps:</strong></p>
+  <ol>
+    <li>Open the ADFS management console, and click the <em>Add Relying Party Trust</em> link on the right.</li>
+    <li>Check the option to <em>Import data about the relying party from a file</em>, then click the <em>Browse</em> button. You will input the XML file of Expensify’s metadata which can be found on the Expensify SAML setup page.</li>
+    <li>The metadata file will provide the critical information that ADFS needs to set up the trust. In ADFS, give it a name, and click Next.</li>
+    <li>Select the option to permit all users, then click Next.</li>
+    <li>The next step will give you an overview of what is being configured. Click Next.</li>
+    <li>The new trust is now created. Highlight the trust, then click <em>Edit claim rules</em> on the right.</li>
+    <li>Click <em>Add a Rule</em>.</li>
+    <li>The default option should be <em>Send LDAP Attributes as Claims</em>. Click Next.</li>
+    <li>Depending upon how your Active Directory is set up, you may or may not have a useful email address associated with each user, or you may have a policy to use the UPN as the user attribute for authentication. If so, using the UPN user attribute may be appropriate for you. If not, you can use the email address attribute.</li>
+    <li>Give the rule a name like <em>Get email address from AD</em>. Choose Active Directory as the attribute store from the dropdown list. Choose your source user attribute to pass to Expensify that has users’ email address info in it, usually either <em>E-Mail-Address</em> or <em>User-Principal-Name</em>. Select the outgoing claim type as “E-Mail Address”. Click OK.</li>
+    <li>Add another rule; this time, we want to <em>Transform an Incoming Claim</em>. Click Next.</li>
+    <li>Name the rule <em>Send email address</em>. The Incoming claim type should be <em>E-Mail Address</em>. The outgoing claim type should be <em>Name ID</em>, and the outgoing name ID format should be <em>Email</em>. Click OK.</li>
+    <li>You should now have two claim rules.</li>
+  </ol>
+
+</details>
+
+            </div>
+            
+        </div>
+
+        <!-- Concierge button at the bottom of the page -->
+        
+
+
+
+        <div class="get-help">
+            <h2 class="title with-margin">Didn't find what you were looking for?</h2>
+            <p class="description">Concierge is here to answer all your questions.</p>
+            <a href="https://dev.new.expensify.com:8082/concierge" target="_blank">
+                <div class="submit-button">
+                    <button class="success">Send a message</button>
+                </div>
+            </a>
+        </div>
+
+        <div id="footer">
+            <div class="page-footer">
+    <div class="page-footer__wrapper">
+        <div class="columns">
+            <div class="column">
+                <h3>Features</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/expense-management" alt="Expense Management" target="_blank">Expense Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/spend-management" alt="Spend Management" target="_blank">Spend Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/expense-reports" alt="Expense Reports" target="_blank">Expense Reports</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/company-credit-card" alt="Company Credit Card" target="_blank">Company Credit Card</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/receipt-scanning-app" alt="Receipt Scanning App" target="_blank">Receipt Scanning App</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/bills" alt="Bill Pay" target="_blank">Bill Pay</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/invoices" alt="Invoicing" target="_blank">Invoicing</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/payroll" alt="Payroll" target="_blank">Payroll</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/travel" alt="Travel" target="_blank">Travel</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Resources</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/accountants" alt="ExpensifyApproved!" target="_blank">ExpensifyApproved!</a>
+                    </li>
+
+                    <li>
+                        <a href="https://use.expensify.com/press-kit" alt="Press Kit" target="_blank">Press Kit</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/support" alt="Support" target="_blank">Support</a>
+                    </li>
+                    <li>
+                        <a href="https://help.expensify.com/" alt="ExpensifyHelp" target="_blank">ExpensifyHelp</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/terms" alt="Terms" target="_blank">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/privacy" alt="Privacy" target="_blank">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Learn more</h3>
+                <ul>
+                    <li>
+                        <a href="https://we.are.expensify.com/how-we-got-here" alt="About Expensify" target="_blank">About Expensify</a>
+                    </li>
+                    <li>
+                        <a href="https://blog.expensify.com/" alt="Blog" target="_blank">Blog</a>
+                    </li>
+                    <li>
+                        <a href="https://we.are.expensify.com/" alt="Jobs" target="_blank">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.org" alt="Expensify.org" target="_blank">Expensify.org</a>
+                    </li>
+                    <li>
+                        <a href="https://ir.expensify.com" alt="Investor Relations" target="_blank">Investor Relations</a>
+                    </li>
+                </ul>
+
+                <div class="page-footer__social-icons">
+                    <a href="https://we.are.expensify.com/podcast" class="social-media-link expensicons expensicons-podcast">
+                        <img src="/assets/images/social-podcast.svg" alt="Podcast" width="24" height="24">
+                    </a>
+                    <a href="https://www.twitter.com/expensify" class="social-media-link expensicons expensicons-twitter" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-twitter.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.instagram.com/expensify" class="social-media-link expensicons expensicons-instagram" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-instagram.svg" alt="Instagram" width="24" height="24">
+                    </a>
+                    <a href="https://www.facebook.com/expensify" class="social-media-link expensicons expensicons-facebook" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-facebook.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.linkedin.com/company/expensify" class="social-media-link expensicons expensicons-linkedin" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Get Started</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.expensify.com" alt="Create A New Account" target="_blank">Create A New Account</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.expensify.com" alt="Log In" target="_blank">Log In</a>
+                    </li>
+                </ul>
+
+                <p id="footer-copywrite-date" class="page-footer__fine-print"></p>
+            </div>
+        </div>
+
+        <p class="page-footer__fine-print">The Expensify Visa® Commercial Card is issued by The Bancorp Bank, N.A., Member FDIC, pursuant to a license from Visa U.S.A. Inc. and may not be used at all merchants that accept Visa cards. Apple® and the Apple logo® are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</p>
+
+        <div class="page-footer__logo">
+            <img src="/assets/images/expensify-footer-logo.svg" alt="Expensify" />
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>

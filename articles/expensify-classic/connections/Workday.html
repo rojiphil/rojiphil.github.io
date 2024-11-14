@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src https://kit.fontawesome.com https://cdnjs.cloudflare.com https://www.google.com https://www.gstatic.com/ https://cse.google.com http://cse.google.com https://partner.googleadservices.com/ https://cdnjs.cloudflare.com/ajax/libs/tocbot/ https://www.googletagmanager.com 'self' 'unsafe-eval' 'unsafe-inline'; style-src cdnjs.cloudflare.com cse.google.com www.google.com ka-f.fontawesome.com fonts.googleapis.com 'self' 'unsafe-inline'" >
+    <title>Expensify Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="icon" type="image/png" href="/assets/images/expensify-logo-round.png">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.css">
+
+    <script src="https://kit.fontawesome.com/263e5e8608.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script defer src="/assets/js/platform-tabs.js"></script>
+    <script defer src="/assets/js/selector.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=4149bc31c5c314a1a"></script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-TQBQW7CR');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- SEO tags -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Workday Integration | Expensify Help</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Workday Integration" />
+<meta name="author" content="Expensify" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Automatically sync employees between Workday and Expensify" />
+<meta property="og:description" content="Automatically sync employees between Workday and Expensify" />
+<link rel="canonical" href="http://localhost:4000/articles/expensify-classic/connections/Workday.html" />
+<meta property="og:url" content="http://localhost:4000/articles/expensify-classic/connections/Workday.html" />
+<meta property="og:site_name" content="Expensify Help" />
+<meta property="og:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="twitter:title" content="Workday Integration" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Expensify"},"description":"Automatically sync employees between Workday and Expensify","headline":"Workday Integration","image":"http://localhost:4000/assets/images/og-preview-image.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/expensify-help.svg"},"name":"Expensify"},"url":"http://localhost:4000/articles/expensify-classic/connections/Workday.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBQW7CR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="lhn">
+
+        <div class="lhn-header">
+            <div class="flex">
+                <div id="header-button">
+                    <img id="angle-up-icon" src="/assets/images/arrow-up.svg" class="base-icon hide"></img>
+                    <img id="bars-icon" src="/assets/images/menu.svg" class="base-icon"></img>
+                </div>
+                <div>
+                    <a href="/">
+                        <img src="/assets/images/expensify-help.svg" class="logo" />
+                    </a>
+                </div>
+                <!-- Search icons that'll open the Sidebar Search sections -->
+                <div class="search-icon">
+    <a onclick="openSidebar()" id="toggle-search-open">
+        <img src="/assets/images/search.svg" class="base-icon" />
+    </a>
+</div>
+
+            </div>
+        </div>
+
+        <!-- Sidebar Search sections -->
+        <div id="sidebar-layer">
+    <div id="sidebar-search" class="sidebar">
+        <div class="flex searchbar-title-wrapper">
+            <a id="toggle-search-close">
+                <img src="/assets/images/back-left.svg" class="base-icon" />
+            </a>
+            <h4 class="search-title">Search</h4>
+        </div>
+        <!-- As the search box is being managed by Embed script from Google, the way search work is on via on Enter / Search Icon -->
+        <div class="gcse-searchbox" data-enableHistory="false"></div>
+        <div class="gcse-searchresults"></div>
+    </div>
+</div>
+
+
+        <!-- LHN content (Main navigation tree or Article TOC) -->
+        <div id="lhn-content">
+            
+                <div id="back-button" class="icon-with-link">
+                    <img src="/assets/images/back-left.svg" class="base-icon"></img>
+                    <div class="link">Back</div>
+                </div>
+                <div class="article-toc"></div>
+            
+        </div>
+    </div>
+
+    <div id="content-area">
+
+        <div id="article-content">
+            <!-- Article title (only shown in article pages) -->
+            
+            <div class="title-platform-tabs">
+                <h1 class="title">
+                    Workday
+                </h1>
+                <div id="platform-tabs">
+                </div>
+            </div>
+            <div class="article-toc-content article">
+                <h1 id="overview">Overview</h1>
+<p>By leveraging Expensify’s <a href="https://integrations.expensify.com/Integration-Server/doc/employeeUpdater/">Employee Updater API</a>, you can set up a fully customizable integration between Workday and Expensify. This integration can:</p>
+
+<ul>
+  <li><strong>Provision new employees in Expensify:</strong> Employees are automatically invited to the correct Expensify workspace on their start date based on data in Workday.</li>
+  <li><strong>Update employees and approval workflows:</strong> Any changes to employee email and manager are automatically updated in Expensify.</li>
+  <li><strong>Deprovision employees:</strong> Employees can optionally be removed from their primary Expensify workspace on their termination date.
+Please note that while your Account Manager can help advise on setting up the Workday integration, the Expensify API is a self-serve tool.</li>
+</ul>
+
+<h1 id="how-to-set-up-an-advanced-custom-report-in-workday">How to set up an Advanced Custom Report in Workday</h1>
+<p>The first step to integrating Workday with Expensify is to create an advanced custom report in Workday. This report can:</p>
+<ul>
+  <li>Map Workday column data to an Expensify Workspace for import.</li>
+  <li>Import employee names, email addresses and manager emails into the Expensify Workspace.</li>
+  <li>Set the employee’s <strong>Submits To</strong> column in the Expensify Members table.</li>
+  <li>Set the employee’s Expensify <strong>Custom Field 1 &amp; 2</strong>, typically used for Employee ID, Cost Center and/or Legal Entity.</li>
+  <li>Add employees to different Expensify Domain Groups.</li>
+  <li>Auto-assign Expensify Cards.</li>
+</ul>
+
+<p>In order to complete the steps below, you’ll need a Workday System Administrator to create an <strong>Integration System User</strong> and <strong>Integration System Security Group</strong>.</p>
+
+<h2 id="create-an-integration-system-user">Create an Integration System User</h2>
+<ol>
+  <li>Search “create user” and click <strong>Create Integration System User</strong>.</li>
+  <li>Add a password, leave <strong>Require New Password at Next Sign In</strong> unchecked, set <strong>Session Timeout Minutes</strong> to 0, and check <strong>Do Not Allow UI Sessions</strong>.</li>
+  <li>Click <strong>OK</strong>.</li>
+</ol>
+
+<h2 id="create-a-security-group">Create a Security Group</h2>
+<ol>
+  <li>Search “create security group”, then click <strong>Create Security Group</strong>.</li>
+  <li>Create a <strong>Constrained</strong> security group and specify the <strong>Organizations</strong> you’d like to sync data from.</li>
+  <li>Add the <strong>Integration System User</strong> you created to your <strong>Security Group</strong>.</li>
+  <li>Search and select “security group membership and access”.</li>
+  <li>Search for the security group you just created.</li>
+  <li>Click the ellipsis, then <strong>Security Group &gt; Maintain Domain Permissions for Security Group</strong>.</li>
+  <li>Head to Integration Permissions and add <strong>Get access</strong> for “External Account Provisioning” and “Worker Data: Workers” under Domain Security Workspaces.</li>
+  <li>Click <strong>OK</strong> and <strong>Done</strong>.</li>
+  <li>Search <strong>Activate Pending Security Workspace Changes</strong> and complete the task for activating the security workspace change, adding a comment if required and checking the <strong>Confirmed</strong> check-box.</li>
+</ol>
+
+<h2 id="create-the-advanced-custom-report">Create the Advanced Custom Report</h2>
+<p>Before completing the steps below, you will need Workday Report Writer access to create an Advanced Custom Report in Workday and enable it as a RAAS (Report as a Service).</p>
+
+<ol>
+  <li>Search “Create Custom Report” and click <strong>Create Custom Report</strong>.</li>
+  <li>Enter the report details:
+    <ul>
+      <li>Give the report a <strong>Name</strong>.</li>
+      <li>Set the <strong>Report Type</strong> to <strong>Advanced</strong>.</li>
+      <li>Check <strong>Enable As Web Service</strong>.</li>
+      <li>Uncheck <strong>Optimized for Performance</strong>.</li>
+      <li>For <strong>Data Source</strong>, search and select <strong>All Active and Terminated Employees</strong>.</li>
+      <li>Click <strong>OK</strong>.</li>
+    </ul>
+  </li>
+  <li>Select the <strong>Column Data</strong> you’d like to sync with Expensify. Typical fields synced with Expensify from Workday are as follows (Required fields are marked with *):
+    <ul>
+      <li>First Name</li>
+      <li>Last Name</li>
+      <li>Primary Work Email*</li>
+      <li>Employee ID*</li>
+      <li>Expensify Workspace ID*</li>
+      <li>Worker’s Manager [Primary Work Email]*</li>
+      <li>Domain Group ID (If you want to specify a Domain Group in Expensify, please work with your Account Manager to get your Domain Group IDs)</li>
+      <li>Cost Center</li>
+      <li>Entity ID (sometimes called Legal Entity)</li>
+      <li>Active/Inactive</li>
+      <li>Termination Date</li>
+      <li>Note: <em>if there is field data you want to import that is not listed above, or you have any special requests, let your Expensify Account Manager know and we will work with you to accommodate the request.</em></li>
+    </ul>
+  </li>
+  <li>Rename the columns so they match Expensify’s API key names (The full list of names are found here):
+    <ul>
+      <li>employeeID</li>
+      <li>customField1</li>
+      <li>customField2</li>
+      <li>firstName</li>
+      <li>lastName</li>
+      <li>employeeEmail</li>
+      <li>managerEmail</li>
+      <li>workspaceID</li>
+      <li>domainGroupID</li>
+      <li>approvesTo
+Switch to the <strong>Share</strong> tab, and share the report with your <strong>Integration System User</strong> and <strong>Security Group</strong>.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="enable-your-report-as-a-report-as-a-service-raas">Enable your report as a Report as a Service (RAAS)</h2>
+
+<ol>
+  <li>In your Workday tenant, search “view custom report” and select it. On the <strong>View Custom Report</strong> screen, click <strong>My Reports</strong>.</li>
+  <li>Select the report you have created and click <strong>OK</strong>.</li>
+  <li>Click <strong>Actions &gt; Web Service &gt; View URLs</strong> and click <strong>OK</strong>.</li>
+  <li>Scroll to the <strong>JSON</strong> section, right-click <strong>JSON</strong>, then select <strong>Copy URL</strong>.</li>
+</ol>
+
+<h2 id="activate-the-workday-integration">Activate the Workday Integration</h2>
+
+<p>If you would like to enable and run the API job that performs a recurring sync, you can do so by following Expensify’s API reference documentation <a href="https://integrations.expensify.com/Integration-Server/doc/employeeUpdater/#api-principles">here</a>.</p>
+
+<p>If you would like Expensify to perform the sync on your behalf, please follow the steps below.</p>
+
+<ol>
+  <li>To generate your <strong>Expensify API Credentials</strong>, log into Expensify with an account that has both Workspace Admin and Domain Admin access, then head to https://www.expensify.com/tools/integrations/ where you will find your partnerUserID and partnerUserSecret.</li>
+  <li>Go to <strong>Settings &gt; Workspaces &gt; Group &gt; <em>[Workspace Name]</em> &gt; Connections &gt; HR Integrations</strong> and click <strong>Connect to Workday</strong>.</li>
+  <li>In the form, supply the following details:
+    <ul>
+      <li>partnerUserID</li>
+      <li>partnerUserSecret</li>
+      <li>Workday ISU Username (e.g. ISU_Expensify)</li>
+      <li>Workday password</li>
+      <li>Workday REST Web Services URL</li>
+      <li>Preferred go live date (e.g. YYYY/MM/DD, or leave blank)</li>
+      <li>Expensify Card Auto-Assignment? (Y/N)
+        <ul>
+          <li>Note: If using Expensify Cards, card auto-assignment occurs when a Smart Limit for a Group is enabled.</li>
+        </ul>
+      </li>
+      <li>Deprovision Users? (Y/N)</li>
+    </ul>
+  </li>
+</ol>
+
+<p>After you submit the form, the request is sent to your Expensify Account Manager. Your Account Manager will create a recurring sync that will retrieve the data columns from your Workday Web Services URL and apply the rule mappings you have specified above.</p>
+
+<p>If we have any questions, we will reach out to you via direct message.</p>
+
+            </div>
+            
+        </div>
+
+        <!-- Concierge button at the bottom of the page -->
+        
+
+
+
+        <div class="get-help">
+            <h2 class="title with-margin">Didn't find what you were looking for?</h2>
+            <p class="description">Concierge is here to answer all your questions.</p>
+            <a href="https://dev.new.expensify.com:8082/concierge" target="_blank">
+                <div class="submit-button">
+                    <button class="success">Send a message</button>
+                </div>
+            </a>
+        </div>
+
+        <div id="footer">
+            <div class="page-footer">
+    <div class="page-footer__wrapper">
+        <div class="columns">
+            <div class="column">
+                <h3>Features</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/expense-management" alt="Expense Management" target="_blank">Expense Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/spend-management" alt="Spend Management" target="_blank">Spend Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/expense-reports" alt="Expense Reports" target="_blank">Expense Reports</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/company-credit-card" alt="Company Credit Card" target="_blank">Company Credit Card</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/receipt-scanning-app" alt="Receipt Scanning App" target="_blank">Receipt Scanning App</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/bills" alt="Bill Pay" target="_blank">Bill Pay</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/invoices" alt="Invoicing" target="_blank">Invoicing</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/payroll" alt="Payroll" target="_blank">Payroll</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/travel" alt="Travel" target="_blank">Travel</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Resources</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/accountants" alt="ExpensifyApproved!" target="_blank">ExpensifyApproved!</a>
+                    </li>
+
+                    <li>
+                        <a href="https://use.expensify.com/press-kit" alt="Press Kit" target="_blank">Press Kit</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/support" alt="Support" target="_blank">Support</a>
+                    </li>
+                    <li>
+                        <a href="https://help.expensify.com/" alt="ExpensifyHelp" target="_blank">ExpensifyHelp</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/terms" alt="Terms" target="_blank">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/privacy" alt="Privacy" target="_blank">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Learn more</h3>
+                <ul>
+                    <li>
+                        <a href="https://we.are.expensify.com/how-we-got-here" alt="About Expensify" target="_blank">About Expensify</a>
+                    </li>
+                    <li>
+                        <a href="https://blog.expensify.com/" alt="Blog" target="_blank">Blog</a>
+                    </li>
+                    <li>
+                        <a href="https://we.are.expensify.com/" alt="Jobs" target="_blank">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.org" alt="Expensify.org" target="_blank">Expensify.org</a>
+                    </li>
+                    <li>
+                        <a href="https://ir.expensify.com" alt="Investor Relations" target="_blank">Investor Relations</a>
+                    </li>
+                </ul>
+
+                <div class="page-footer__social-icons">
+                    <a href="https://we.are.expensify.com/podcast" class="social-media-link expensicons expensicons-podcast">
+                        <img src="/assets/images/social-podcast.svg" alt="Podcast" width="24" height="24">
+                    </a>
+                    <a href="https://www.twitter.com/expensify" class="social-media-link expensicons expensicons-twitter" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-twitter.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.instagram.com/expensify" class="social-media-link expensicons expensicons-instagram" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-instagram.svg" alt="Instagram" width="24" height="24">
+                    </a>
+                    <a href="https://www.facebook.com/expensify" class="social-media-link expensicons expensicons-facebook" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-facebook.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.linkedin.com/company/expensify" class="social-media-link expensicons expensicons-linkedin" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Get Started</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.expensify.com" alt="Create A New Account" target="_blank">Create A New Account</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.expensify.com" alt="Log In" target="_blank">Log In</a>
+                    </li>
+                </ul>
+
+                <p id="footer-copywrite-date" class="page-footer__fine-print"></p>
+            </div>
+        </div>
+
+        <p class="page-footer__fine-print">The Expensify Visa® Commercial Card is issued by The Bancorp Bank, N.A., Member FDIC, pursuant to a license from Visa U.S.A. Inc. and may not be used at all merchants that accept Visa cards. Apple® and the Apple logo® are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</p>
+
+        <div class="page-footer__logo">
+            <img src="/assets/images/expensify-footer-logo.svg" alt="Expensify" />
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>

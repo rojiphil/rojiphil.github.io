@@ -1,0 +1,780 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src https://kit.fontawesome.com https://cdnjs.cloudflare.com https://www.google.com https://www.gstatic.com/ https://cse.google.com http://cse.google.com https://partner.googleadservices.com/ https://cdnjs.cloudflare.com/ajax/libs/tocbot/ https://www.googletagmanager.com 'self' 'unsafe-eval' 'unsafe-inline'; style-src cdnjs.cloudflare.com cse.google.com www.google.com ka-f.fontawesome.com fonts.googleapis.com 'self' 'unsafe-inline'" >
+    <title>Expensify Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="icon" type="image/png" href="/assets/images/expensify-logo-round.png">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.css">
+
+    <script src="https://kit.fontawesome.com/263e5e8608.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+    <script defer src="/assets/js/platform-tabs.js"></script>
+    <script defer src="/assets/js/selector.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=4149bc31c5c314a1a"></script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-TQBQW7CR');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- SEO tags -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Configure Netsuite | Expensify Help</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Configure Netsuite" />
+<meta name="author" content="Expensify" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Configure NetSuite’s export, coding, and advanced settings." />
+<meta property="og:description" content="Configure NetSuite’s export, coding, and advanced settings." />
+<link rel="canonical" href="http://localhost:4000/articles/expensify-classic/connections/netsuite/Configure-Netsuite.html" />
+<meta property="og:url" content="http://localhost:4000/articles/expensify-classic/connections/netsuite/Configure-Netsuite.html" />
+<meta property="og:site_name" content="Expensify Help" />
+<meta property="og:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/og-preview-image.png" />
+<meta property="twitter:title" content="Configure Netsuite" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Expensify"},"description":"Configure NetSuite’s export, coding, and advanced settings.","headline":"Configure Netsuite","image":"http://localhost:4000/assets/images/og-preview-image.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/expensify-help.svg"},"name":"Expensify"},"url":"http://localhost:4000/articles/expensify-classic/connections/netsuite/Configure-Netsuite.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQBQW7CR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="lhn">
+
+        <div class="lhn-header">
+            <div class="flex">
+                <div id="header-button">
+                    <img id="angle-up-icon" src="/assets/images/arrow-up.svg" class="base-icon hide"></img>
+                    <img id="bars-icon" src="/assets/images/menu.svg" class="base-icon"></img>
+                </div>
+                <div>
+                    <a href="/">
+                        <img src="/assets/images/expensify-help.svg" class="logo" />
+                    </a>
+                </div>
+                <!-- Search icons that'll open the Sidebar Search sections -->
+                <div class="search-icon">
+    <a onclick="openSidebar()" id="toggle-search-open">
+        <img src="/assets/images/search.svg" class="base-icon" />
+    </a>
+</div>
+
+            </div>
+        </div>
+
+        <!-- Sidebar Search sections -->
+        <div id="sidebar-layer">
+    <div id="sidebar-search" class="sidebar">
+        <div class="flex searchbar-title-wrapper">
+            <a id="toggle-search-close">
+                <img src="/assets/images/back-left.svg" class="base-icon" />
+            </a>
+            <h4 class="search-title">Search</h4>
+        </div>
+        <!-- As the search box is being managed by Embed script from Google, the way search work is on via on Enter / Search Icon -->
+        <div class="gcse-searchbox" data-enableHistory="false"></div>
+        <div class="gcse-searchresults"></div>
+    </div>
+</div>
+
+
+        <!-- LHN content (Main navigation tree or Article TOC) -->
+        <div id="lhn-content">
+            
+                <div id="back-button" class="icon-with-link">
+                    <img src="/assets/images/back-left.svg" class="base-icon"></img>
+                    <div class="link">Back</div>
+                </div>
+                <div class="article-toc"></div>
+            
+        </div>
+    </div>
+
+    <div id="content-area">
+
+        <div id="article-content">
+            <!-- Article title (only shown in article pages) -->
+            
+            <div class="title-platform-tabs">
+                <h1 class="title">
+                    Configure Netsuite
+                </h1>
+                <div id="platform-tabs">
+                </div>
+            </div>
+            <div class="article-toc-content article">
+                <p>Correctly configuring NetSuite settings in Expensify ensures seamless integration between your expense management and accounting processes, saving time and reducing manual errors. Aligning your workspace settings with NetSuite’s financial structure can automate data syncs, simplify reporting, and improve overall financial accuracy.</p>
+
+<h1 id="best-practices-using-netsuite">Best Practices Using NetSuite</h1>
+<p>A connection to NetSuite lets you combine the power of Expensify’s expense management features with NetSuite’s accounting capabilities.</p>
+
+<p>By following the recommended best practices below, your finances will be automatically categorized and accounted for in NetSuite:</p>
+<ul>
+  <li>Configure your setup immediately after making the connection, and review each settings tab thoroughly.</li>
+  <li>Keep Auto Sync enabled:
+    <ul>
+      <li>The daily sync will update Expensify with any changes to your chart of accounts, customers/projects, or bank accounts in NetSuite.</li>
+      <li>Finalized reports will be exported to NetSuite automatically, saving your admin team time with every report.</li>
+    </ul>
+  </li>
+  <li>Set your preferred exporter to someone who is both a workspace and domain admin.</li>
+  <li>Configure your coding settings and enforce them by <a href="https://help.expensify.com/articles/new-expensify/workspaces/Require-tags-and-categories-for-expenses">requiring categories and tags on expenses</a>.</li>
+</ul>
+
+<h1 id="step-1-configure-export-settings">Step 1: Configure Export Settings</h1>
+
+<p>There are numerous options for exporting Expensify reports to NetSuite. Let’s explore how to configure these settings to align with your business needs.</p>
+
+<p>To access these settings, go to <strong>Settings &gt; Workspace &gt; Group &gt; Connections</strong> and select the <strong>Configure</strong> button.</p>
+
+<h2 id="subsidiary">Subsidiary</h2>
+
+<p>The subsidiary selection will only appear if you use NetSuite OneWorld and have multiple subsidiaries active. If you add a new subsidiary to NetSuite, sync the workspace connection, and the new subsidiary should appear in the dropdown list under <strong>Settings &gt; Workspaces &gt; <em>[Workspace Name]</em> &gt; Connections</strong>.</p>
+
+<h2 id="preferred-exporter">Preferred Exporter</h2>
+
+<p>This option allows any admin to export, but the preferred exporter will receive notifications in Expensify regarding the status of exports.</p>
+
+<h2 id="date">Date</h2>
+
+<p>The three options for the date your report will export with are:</p>
+<ul>
+  <li>Date of last expense: This will use the date of the previous expense on the report</li>
+  <li>Submitted date: The date the employee submitted the report</li>
+  <li>Exported date: The date you export the report to NetSuite</li>
+</ul>
+
+<h2 id="export-settings-for-reimbursable-expenses">Export Settings for Reimbursable Expenses</h2>
+
+<p><strong>Expense Reports:</strong> Expensify transactions will export reimbursable expenses as expense reports by default, which will be posted to the payables account designated in NetSuite.</p>
+
+<p><strong>Vendor Bills:</strong> Expensify transactions export as vendor bills in NetSuite and will be mapped to the subsidiary associated with the corresponding policy. Each report will be posted as payable to the vendor associated with the employee who submitted the report. You can also set an approval level in NetSuite for vendor bills.</p>
+
+<p><strong>Journal Entries:</strong> Expensify transactions that are set to export as journal entries in NetSuite will be mapped to the subsidiary associated with this policy. All the transactions will be posted to the payable account specified in the policy. You can also set an approval level in NetSuite for the journal entries.</p>
+
+<ul>
+  <li>Journal entry forms by default do not contain a customer column, so it is not possible to export customers or projects with this export option</li>
+  <li>The credit line and header level classifications are pulled from the employee record</li>
+</ul>
+
+<h2 id="export-settings-for-non-reimbursable-expenses">Export Settings for Non-Reimbursable Expenses</h2>
+
+<p><strong>Vendor Bills:</strong> Non-reimbursable expenses will be posted as a vendor bill payable to the default vendor specified in your policy’s connection settings. If you centrally manage your company cards through Domains, you can export expenses from each card to a specific vendor in NetSuite. You can also set an approval level in NetSuite for the bills.</p>
+
+<p><strong>Journal Entries:</strong> Non-reimbursable expenses will be posted to the Journal Entries posting account selected in your policy’s connection settings. If you centrally manage your company cards through Domains, you can export expenses from each card to a specific account in NetSuite.</p>
+
+<ul>
+  <li>Expensify Card expenses will always export as Journal Entries, even if you have Expense Reports or Vendor Bills configured for non-reimbursable expenses on the Export tab</li>
+  <li>Journal entry forms do not contain a customer column, so it is not possible to export customers or projects with this export option</li>
+  <li>The credit line and header level classifications are pulled from the employee record</li>
+</ul>
+
+<p><strong>Expense Reports:</strong> To use the expense report option for your corporate card expenses, you will need to set up your default corporate cards in NetSuite.</p>
+
+<p>To use a default corporate card for non-reimbursable expenses, you must select the correct card on the employee records (for individual accounts) or the subsidiary record (If you use a non-one world account, the default is found in your accounting preferences).</p>
+
+<p>Add the corporate card option and corporate card main field to your expense report transaction form in NetSuite by:</p>
+<ol>
+  <li>Heading to <em>Customization &gt; Forms &gt; Transaction Forms &gt; Preferred expense report form &gt; Screen Fields</em></li>
+  <li>Under the Main tab, check “Show” for Account for Corporate Card Expenses</li>
+  <li>On the Expenses tab, check “Show” for Corporate Card</li>
+</ol>
+
+<p>You can select the default account on your employee record to use individual corporate cards for each employee. Make sure you add this field to your employee entity form in NetSuite.
+If you have multiple cards assigned to a single employee, you cannot export to each account. You can only have a single default per employee record.</p>
+
+<h2 id="export-invoices">Export Invoices</h2>
+
+<p>Select the Accounts Receivable account you want your Invoice Reports to export. In NetSuite, the Invoices are linked to the customer, corresponding to the email address where the Invoice was sent.</p>
+
+<h2 id="default-vendor-bills">Default Vendor Bills</h2>
+
+<p>When selecting the option to export non-reimbursable expenses as vendor bills, the list of vendors will be available in the dropdown menu.</p>
+
+<h1 id="step-2-configure-coding-settings">Step 2: Configure Coding Settings</h1>
+
+<p>The Coding tab is where NetSuite information is configured in Expensify, which allows employees to code expenses and reports accurately. There are several coding options in NetSuite. Let’s go over each of those below.</p>
+
+<h2 id="expense-categories">Expense Categories</h2>
+
+<p>Expensify’s integration with NetSuite automatically imports NetSuite Expense Categories as Categories in Expensify.</p>
+
+<p>Please note that each expense must have a Category selected to export to NetSuite. The category chosen must be imported from NetSuite and cannot be manually created in Expensify.</p>
+
+<p>If you want to delete Categories, you must do this in NetSuite. Categories are added and modified on the integration’s side and then synced with Expensify.
+Once imported, you can turn specific Categories on or off under <strong>Settings &gt; Workspaces &gt; <em>[Workspace Name]</em> &gt; Categories</strong>.</p>
+
+<h2 id="tags">Tags</h2>
+
+<p>The NetSuite integration allows you to configure Customers, Projects, Departments, Classes, and Locations as line-item expense classifications. These are called Tags in Expensify.</p>
+
+<p>Suppose a default Customer, Project, Department, Class, or Location ties to the employee record in NetSuite. In that case, Expensify will create a rule that automatically applies that tag to all expenses made by that employee (the Tag is still editable if necessary).</p>
+
+<p>If you want to delete Tags, you must do this in NetSuite. Tags are added and modified on the integration’s side and then synced with Expensify.</p>
+
+<p>Once imported, you can turn specific Tags on or off under <strong>Settings &gt; Workspaces &gt; <em>[Workspace Name]</em> &gt; Tags</strong>.</p>
+
+<h2 id="report-fields">Report Fields</h2>
+
+<p>The NetSuite integration allows you to configure Customers, Projects, Departments, Classes, and Locations as report-level classifications. These are called Report Fields in Expensify.</p>
+
+<h2 id="netsuite-employee-default">NetSuite Employee Default</h2>
+
+<p>The NetSuite integration allows you to set Departments, Classes, and Locations according to the NetSuite Employee Default for expenses exported as both Expense Reports and Journal Entries.</p>
+
+<p>These fields must be set in NetSuite’s employee(s) record(s) to be successfully applied to expenses upon export.</p>
+
+<p>You cannot use the employee default setting with a vendor bill export if you have both a vendor and an employee set up for the user under the same email address and subsidiary.</p>
+
+<h2 id="tax">Tax</h2>
+
+<p>The NetSuite integration allows users to apply a tax rate and amount to each expense. To do this, import Tax Groups from NetSuite:</p>
+<ol>
+  <li>In NetSuite, head to <em>Setup &gt; Accounting &gt; Tax Groups</em></li>
+  <li>Once imported, go to the NetSuite connection configuration page in Expensify (under <strong>Settings &gt; Workspaces &gt; Group &gt; <em>[Workspace Name]</em> &gt; Connection &gt; NetSuite &gt; Coding</strong>), refresh the subsidiary list, and the Tax option will appear</li>
+  <li>From there, enable Tax</li>
+  <li>Click <strong>Save</strong></li>
+  <li>Sync the connection</li>
+  <li>All Tax Groups for the connected NetSuite subsidiary will be imported to Expensify as taxes.</li>
+  <li>After syncing, go to <strong>Settings &gt; Workspace &gt; Group &gt; <em>[Workspace Name]</em> &gt; Tax</strong> to see the tax groups imported from NetSuite</li>
+  <li>Use the turn on/off button to choose which taxes to make available to your employees</li>
+  <li>Select a default tax to apply to the workspace (that tax rate will automatically apply to all new expenses)</li>
+</ol>
+
+<h2 id="custom-segments">Custom Segments</h2>
+
+<p>To add a Custom Segment to your workspace, you’ll need to locate three fields in NetSuite:</p>
+<ul>
+  <li>Segment Name</li>
+  <li>Internal ID</li>
+  <li>Script/Field ID</li>
+</ul>
+
+<p><strong>To find the Segment Name:</strong></p>
+<ol>
+  <li>Log in as an administrator in NetSuite</li>
+  <li>Head to <em>Customization &gt; Lists, Records, &amp; Fields &gt; Custom Segments</em></li>
+  <li>You’ll see the Segment Name on the Custom Segments page</li>
+</ol>
+
+<p><strong>To find the Internal ID:</strong></p>
+<ol>
+  <li>Ensure you have internal IDs enabled in NetSuite under <em>Home &gt; Set Preferences</em></li>
+  <li>Navigate back to the Custom Segment page</li>
+  <li>Click the <strong>Custom Record Type</strong> hyperlink</li>
+  <li>You’ll see the Internal ID on the Custom Record Type page</li>
+</ol>
+
+<p><strong>To find the Script/Field ID:</strong></p>
+
+<p>Note that as of 2019.1, any new custom segments that you create automatically use the unified ID, and the Use as Field ID box is not visible. If you are editing a custom segment definition that was created before 2019.1, the Use as Field ID box is available.
+To use a unified ID for the entire custom segment definition, check the Use as Field ID box. When the box is checked, no field ID fields or columns are shown on the Application &amp; Sourcing subtabs because one ID is used for all fields.</p>
+
+<ul>
+  <li>If configuring Custom Segments as Report Fields, use the Field ID on the Transactions tab (under <em>Custom Segments &gt; Transactions</em>), or if no Field ID is shown, use the unified ID (just called “ID” right below the “Label”).</li>
+  <li>If configuring Custom Segments as Tags, use the Field ID on the Transaction Columns tab (under <em>Custom Segments &gt; Transaction Columns</em>), or if no Field ID is shown, use the unified ID (just called “ID” right below the “Label”).</li>
+</ul>
+
+<p>Lastly, head over to Expensify and do the following:</p>
+<ol>
+  <li>Navigate to <strong>Settings &gt; Workspace &gt; Group &gt; <em>[Workspace Name]</em> &gt; Connections &gt; Configure &gt; Coding tab</strong></li>
+  <li>Choose how to import Custom Segments (Report Fields or Tags)</li>
+  <li>Fill out the three fields (Segment Name, Internal ID, Script ID)</li>
+  <li>Click <strong>Submit</strong></li>
+</ol>
+
+<p>From there, you should see the values for the Custom Segment under the Tag or Report Field settings in Expensify.</p>
+
+<p>Don’t use the “Filtered by” feature available for Custom Segments. Expensify can’t make these dependent on other fields. If you do have a filter selected, we suggest switching that filter in NetSuite to “Subsidiary” and enabling all subsidiaries to ensure you don’t receive any errors upon exporting reports.</p>
+
+<h2 id="custom-records">Custom Records</h2>
+
+<p>Custom Records are added through the Custom Segments feature.</p>
+
+<p>To add a Custom Record to your workspace, you’ll need to locate three fields in NetSuite:</p>
+<ul>
+  <li>The name of the record</li>
+  <li>Internal ID</li>
+  <li>Transaction Column ID</li>
+</ul>
+
+<p><strong>To find the Internal ID:</strong></p>
+<ol>
+  <li>Make sure you have Internal IDs enabled in NetSuite under Home &gt; Set Preferences</li>
+  <li>Navigate back to the Custom Segment page</li>
+  <li>Click the Custom Record Type hyperlink</li>
+  <li>You’ll see the Internal ID on the Custom Record Type page</li>
+</ol>
+
+<p><strong>To find the Transaction Column ID:</strong>
+If configuring Custom Segments as Report Fields, use the Field ID on the Transactions tab (under <em>Custom Segments &gt; Transactions</em>).</p>
+
+<p>If configuring Custom Segments as Tags, use the Field ID on the Transaction Columns tab (under <em>Custom Segments &gt; Transaction Columns</em>).</p>
+
+<p>Lastly, head over to Expensify and do the following:</p>
+<ol>
+  <li>Navigate to <strong>Settings &gt; Workspace &gt; Group &gt; [Workspace Name] &gt; Connections &gt; Configure &gt; Coding tab</strong></li>
+  <li>Choose how to import Custom Records (Report Fields or Tags)</li>
+  <li>Fill out the three fields (the name or label of the record, Internal ID, Transaction Column ID)</li>
+  <li>Click <strong>Submit</strong></li>
+</ol>
+
+<p>From there, you should see the values for the Custom Records under the Tag or Report Field settings in Expensify.</p>
+
+<h2 id="custom-lists">Custom Lists</h2>
+
+<p>To add Custom Lists to your workspace, you’ll need to locate two fields in NetSuite:</p>
+<ul>
+  <li>The name of the record</li>
+  <li>The ID of the Transaction Line Field that holds the record</li>
+</ul>
+
+<p><strong>To find the record:</strong></p>
+<ol>
+  <li>Log into Expensify</li>
+  <li>Head to <strong>Settings &gt; Workspace &gt; Group &gt; [Workspace Name] &gt; Connections &gt; Configure &gt; Coding tab</strong></li>
+  <li>The name of the record will be populated in a dropdown list</li>
+</ol>
+
+<p>The name of the record will populate in a dropdown list. If you don’t see the one you are looking for, click <strong>Refresh Custom List Options</strong>.</p>
+
+<p><strong>To find the Transaction Line Field ID:</strong></p>
+<ol>
+  <li>Log into NetSuite</li>
+  <li>Search “Transaction Line Fields” in the global search</li>
+  <li>Open the option that is holding the record to get the ID</li>
+</ol>
+
+<p>Lastly, head over to Expensify, and do the following:</p>
+<ol>
+  <li>Navigate to <strong>Settings &gt; Workspaces &gt; Group &gt; [Workspace Name] &gt; Connections &gt; Configure &gt; Coding tab</strong></li>
+  <li>Choose how to import Custom Lists (Report Fields or Tags)</li>
+  <li>Enter the ID in Expensify in the configuration screen</li>
+  <li>Click <strong>Submit</strong></li>
+</ol>
+
+<p>From there, you should see the values for the Custom Lists under the Tag or Report Field settings in Expensify.</p>
+
+<h1 id="step-3-configure-advanced-settings">Step 3: Configure Advanced Settings</h1>
+
+<p>The NetSuite integration’s advanced configuration settings are accessed under <strong>Settings &gt; Workspaces &gt; Group &gt; <em>[Workspace Name]</em> &gt; Connections &gt; NetSuite &gt; Configure &gt; Advanced tab</strong>.</p>
+
+<p>Let’s review the different advanced settings and how they interact with the integration.</p>
+
+<h2 id="auto-sync">Auto Sync</h2>
+
+<p>Enabling Auto Sync ensures that the information in NetSuite and Expensify is always in sync through automating exports, tracking direct deposits, and communicating export errors.</p>
+
+<p><strong>Automatic Export:</strong></p>
+<ul>
+  <li>When you turn on the Auto Sync feature in Expensify, any final report you approve will automatically be sent to NetSuite.</li>
+  <li>This happens every day at approximately the same time.</li>
+</ul>
+
+<p><strong>Direct Deposit Alert:</strong></p>
+<ul>
+  <li>If you use Expensify’s Direct Deposit ACH and have Auto Sync, getting reimbursed for an Expensify report will automatically create a Bill Payment in NetSuite.</li>
+</ul>
+
+<p><strong>Tracking Exports and Errors:</strong></p>
+<ul>
+  <li>In the comments section of an Expensify report, you can find extra details about the report.</li>
+  <li>The comments section will tell you when the report was sent to NetSuite, and if there were any problems during the export, it will show the error.</li>
+</ul>
+
+<h2 id="newly-imported-categories">Newly Imported Categories</h2>
+
+<p>With this enabled, all submitters can add any newly imported Categories to an Expense.</p>
+
+<h2 id="invite-employees--set-approval-workflow">Invite Employees &amp; Set Approval Workflow</h2>
+
+<p><strong>Invite Employees:</strong> Use this option in Expensify to bring your employees from a specific NetSuite subsidiary into Expensify. Once imported, Expensify will send them an email letting them know they’ve been added to a workspace.</p>
+
+<p><strong>Set Approval Workflow:</strong> In addition to inviting employees, you can establish an approval process in NetSuite. The Approval Workflow in Expensify will automatically follow the same rules as NetSuite, typically starting with Manager Approval.</p>
+
+<p>The available options are:</p>
+<ul>
+  <li><strong>Basic Approval:</strong> This is a single level of approval, where all users submit directly to a Final Approver. The Final Approver defaults to the workspace owner but can be edited on the people page.</li>
+  <li><strong>Manager Approval (default):</strong> Two levels of approval route reports first to an employee’s NetSuite expense approver or supervisor, and second to a workspace-wide Final Approver. By NetSuite convention, Expensify will map to the supervisor if no expense approver exists. The Final Approver defaults to the workspace owner but can be edited on the people page.</li>
+  <li><strong>Configure Manually:</strong> Employees will be imported, but all levels of approval must be manually configured on the workspace’s People settings page. If you enable this setting, it’s recommended you review the newly imported employees and managers on the <strong>Settings &gt; Workspaces &gt; Group &gt; <em>[Workspace Name]</em> &gt; People page</strong>. You can set a user role for each new employee and enforce an approval workflow.</li>
+</ul>
+
+<h2 id="automatically-create-employeesvendors">Automatically Create Employees/Vendors</h2>
+
+<p>With this feature enabled, Expensify will automatically create a new employee or vendor (if one doesn’t already exist) from the report submitter’s email in NetSuite.</p>
+
+<h2 id="export-foreign-currency-amount">Export Foreign Currency Amount</h2>
+
+<p>Using this feature allows you to send the original amount of the expense rather than the converted total when exporting to NetSuite. This option is available if you are exporting reimbursable expenses as Expense Reports.</p>
+
+<h2 id="cross-subsidiary-customersprojects">Cross-Subsidiary Customers/Projects</h2>
+
+<p>This allows you to import Customers and Projects across all subsidiaries to a single group workspace. To enable this functionality in NetSuite, you must enable “Intercompany Time and Expense.”</p>
+
+<p>That feature is found in NetSuite under <em>Setup &gt; Company &gt; Setup Tasks: Enable Features &gt; Advanced Features</em>.</p>
+
+<h2 id="sync-reimbursed-reports">Sync Reimbursed Reports</h2>
+
+<p>If you’re using Expensify’s Direct Deposit ACH feature and you want to export reimbursable expenses as either Expense Reports or Vendor Bills in NetSuite, here’s what to do:</p>
+<ol>
+  <li>In Expensify, go to the Advanced Settings tab</li>
+  <li>Look for a toggle or switch related to this feature</li>
+  <li>Turn it on by clicking the toggle</li>
+  <li>Select the correct account for the Bill Payment in NetSuite</li>
+  <li>Ensure the account you choose matches the default account for Bill Payments in NetSuite</li>
+</ol>
+
+<p>That’s it! When Expensify reimburses an expense report, it will automatically create a corresponding Bill Payment in NetSuite.</p>
+
+<p>Alternatively, if reimbursing outside of Expensify, this feature will automatically update the expense report status in Expensify from Approved to Reimbursed when the respective report is paid in NetSuite and the corresponding workspace syncs via Auto-Sync or when the integration connection is manually synced.</p>
+
+<h2 id="setting-approval-levels">Setting Approval Levels</h2>
+
+<p>With this setting enabled, you can set approval levels based on your export type.</p>
+
+<ul>
+  <li><strong>Expense Reports:</strong> These options correspond to the default preferences in NetSuite – “Supervisor approval only,” “Accounting approval only,” or “Supervisor and Accounting approved.”</li>
+  <li><strong>Vendor Bills or Journal Entries:</strong> These options correspond to the default preferences in NetSuite –  “Pending Approval” or “Approved for Posting.”</li>
+</ul>
+
+<p>If you have Approval Routing selected in your accounting preference, this will override the selections in Expensify.</p>
+
+<p>If you do not wish to use Approval Routing in NetSuite, go to <em>Setup &gt; Accounting &gt; Accounting Preferences &gt; Approval Routing</em> and ensure Vendor Bills and Journal Entries are not selected.</p>
+
+<h2 id="collection-account">Collection Account</h2>
+
+<p>When exporting invoices, once marked as Paid, the payment is marked against the account selected after enabling the Collection Account setting.</p>
+
+<h1 id="additional-settings">Additional Settings</h1>
+<h2 id="categories">Categories</h2>
+
+<p>You can use the Auto-Categorization feature so that expenses are automatically categorized.</p>
+
+<p>To set Category Rules (e.g., receipt requirements or comments), go to the categories page in the workspace under <strong>Settings &gt; Workspaces &gt; [Workspace Name] &gt; Categories</strong>.</p>
+
+<p>With this setting enabled, when an Expense Category updates in NetSuite, it will update in Expensify automatically.</p>
+
+<h2 id="company-cards">Company Cards</h2>
+
+<p>NetSuite’s company card feature simplifies exporting reimbursable and non-reimbursable transactions to your General Ledger (GL). This approach is recommended for several reasons:</p>
+
+<ol>
+  <li><strong>Separate Employees from Vendors:</strong> NetSuite allows you to maintain separate employee and vendor records. This feature proves especially valuable when integrating with Expensify. By utilizing employee defaults for classifications, your employees won’t need to apply tags to all their expenses manually.</li>
+  <li><strong>Default Accounts Payable (A/P) Account:</strong> Expense reports enable you to set a default A/P account for export on your subsidiary record. Unlike vendor bills, where the A/P account defaults to the last selected account, the expense report export option allows you to establish a default A/P account.</li>
+  <li><strong>Mix Reimbursable and Non-Reimbursable Expenses:</strong> You can freely mix reimbursable and non-reimbursable expenses without categorizing them in NetSuite after export. NetSuite’s corporate card feature automatically categorizes expenses into the correct GL accounts, ensuring a neat and organized GL impact.</li>
+</ol>
+
+<p><strong>Let’s go over an example!</strong></p>
+
+<p>Consider an expense report with one reimbursable and one non-reimbursable expense. Each needs to be exported to different accounts and expense categories.</p>
+
+<p>In NetSuite, you can quickly identify the non-reimbursable expense marked as a corporate card expense. Reviewing the GL impact, you’ll notice that the reimbursable expense is posted to the default A/P account set on the subsidiary record. On the other hand, the company card expense is assigned to the Credit Card account, which can either be set as a default on the subsidiary record (for a single account) or the employee record (for individual credit card accounts in NetSuite).</p>
+
+<p>Furthermore, each expense is categorized according to your selected expense category.</p>
+
+<p>To use the expense report option for your corporate card expenses, you’ll need to set up default corporate cards in NetSuite.</p>
+
+<p>For non-reimbursable expenses, choose the appropriate card on the subsidiary record. You can find the default in your accounting preferences if you’re not using a OneWorld account.</p>
+
+<p>Add the corporate card option and the corporate card main field to configure your expense report transaction form in NetSuite:</p>
+<ol>
+  <li>Go to <em>Customization &gt; Forms &gt; Transaction Forms &gt; Preferred expense report form &gt; Screen Fields</em></li>
+  <li>Under the Main tab, check “Show for Account for Corporate Card Expenses”</li>
+  <li>On the Expenses tab, check “Show for Corporate Card”</li>
+</ol>
+
+<p>If you prefer individual corporate cards for each employee, you can select the default account on the employee record. Add this field to your employee entity form in NetSuite (under <em>Customize &gt; Customize Form</em> from any employee record). Note that each employee can have only one corporate card account default.</p>
+
+<h2 id="exporting-company-cards-to-gl-accounts-in-netsuite">Exporting Company Cards to GL Accounts in NetSuite</h2>
+
+<p>If you need to export company card transactions to individual GL accounts, you can set that up at the domain level.</p>
+
+<p>Let’s go over how to do that:</p>
+<ol>
+  <li>Go to <strong>Settings &gt; Domain &gt; <em>[Domain name]</em> &gt; Company Cards</strong></li>
+  <li>Click the Export Settings cog on the right-hand side of the card and select the GL account where you want the expenses to export</li>
+</ol>
+
+<p>After setting the account, exported expenses will be mapped to that designated account.</p>
+
+<h2 id="tax-1">Tax</h2>
+
+<p>You’ll want to set up Tax Groups in Expensify if you’re keeping track of taxes.</p>
+
+<p>Expensify can import “NetSuite Tax Groups” (not Tax Codes) from NetSuite. Tax Groups can contain one or more Tax Codes. If you have subsidiaries in the UK or Ireland, ensure your Tax Groups have only one Tax Code.</p>
+
+<p>You can locate these in NetSuite by setting up&gt; Accounting &gt; Tax Groups. Name the Tax Groups something that makes sense to your employees since both the name and the tax rate will appear in Expensify.</p>
+
+<p>To bring NetSuite Tax Groups into Expensify, here’s what you need to do:</p>
+<ol>
+  <li>Create your Tax Groups in NetSuite by going to <em>Setup &gt; Accounting &gt; Tax Groups</em></li>
+  <li>Click <strong>New</strong></li>
+  <li>Pick the country for your Tax Group</li>
+  <li>Enter the Tax Name (this will be visible to your employees in Expensify)</li>
+  <li>Next, select the subsidiary for this Tax Group</li>
+  <li>Finally, from the table, choose the Tax Code you want to include in this Tax Group</li>
+  <li>Click <strong>Add</strong>, then click <strong>Save</strong></li>
+</ol>
+
+<p>Repeat those steps for each tax rate you want to use in Expensify.</p>
+
+<p>Next, ensure that Tax Groups can be applied to expenses:</p>
+<ol>
+  <li>In NetSuite, head to <em>Setup &gt; Accounting &gt; Set Up Taxes</em></li>
+  <li>Set the preference for “Tax Code Lists Include” to either “Tax Groups And Tax Codes” or “Tax Groups Only.” If you don’t see this field, don’t worry; it means you don’t need to set it for that specific country</li>
+</ol>
+
+<p>NetSuite has a pre-made list of tax groups for specific locations, but you can also create your own. We’ll import both your custom tax groups and the default ones. It’s important not to deactivate the default NetSuite tax groups because we rely on them for exporting specific types of expenses.</p>
+
+<p>For example, there’s a default Canadian tax group called CA-Zero, which we use when exporting mileage and per diem expenses that don’t have any taxes applied in</p>
+
+<p>Expensify. If you deactivate this group in NetSuite, it will lead to export errors.</p>
+
+<p>Additionally, some tax nexuses in NetSuite have specific settings that need to be configured in a certain way to work seamlessly with the Expensify integration:</p>
+<ul>
+  <li>​​In the Tax Code Lists Include field, choose “Tax Groups” or “Tax Groups and Tax Codes.” This setting determines how tax information is handled.</li>
+  <li>In the Tax Rounding Method field, select “Round Off.” Although this setting won’t cause connection errors, not using it can result in exported amounts differing from what NetSuite expects.</li>
+</ul>
+
+<p>If your tax groups are importing into Expensify but not exporting to NetSuite, check that each tax group has the right subsidiaries enabled. That is crucial for proper data exchange.</p>
+
+<h2 id="multi-currency">Multi-Currency</h2>
+
+<p>When using multi-currency features with NetSuite, remember these points:</p>
+
+<p><strong>Matching Currencies:</strong> The currency set for a vendor or employee record must match the currency chosen for the subsidiary in your Expensify configuration. This alignment is crucial for proper handling.</p>
+
+<p><strong>Foreign Currency Conversion:</strong> If you create expenses in one currency and then convert them to another currency within Expensify before exporting, you can include both the original and converted amounts in the exported expense reports. This option, called “Export foreign currency amount,” can be found in the Advanced tab of your configuration. Note that Expensify sends only the amounts; the actual currency conversion is performed in NetSuite.</p>
+
+<p><strong>Bank Account Currency:</strong> When synchronizing bill payments, make sure your bank account’s currency matches the subsidiary’s currency. Failure to do so will result in an “Invalid Account” error. This alignment is necessary to prevent issues during payment processing.</p>
+
+<h2 id="exporting-invoices">Exporting Invoices</h2>
+
+<p>When you mark an invoice as paid in Expensify, the paid status syncs with NetSuite and vice versa!</p>
+
+<p>Let’s dive right in:</p>
+<ol>
+  <li>Access Configuration Settings: Go to <strong>Settings &gt; Workspace &gt; Group &gt; <em>[Workspace Name]</em> &gt; Connections &gt; Configuration</strong></li>
+  <li>Choose Your Accounts Receivable Account: Scroll down to “Export Expenses to” and select the appropriate Accounts Receivable account from the dropdown list. If you don’t see any options, try syncing your NetSuite connection by returning to the Connections page and clicking <strong>Sync Now</strong></li>
+</ol>
+
+<h2 id="exporting-an-invoice-to-netsuite">Exporting an Invoice to NetSuite</h2>
+
+<p>Invoices will be automatically sent to NetSuite when they are in the “Processing” or “Paid” status. This ensures you always have an up-to-date record of unpaid and paid invoices.</p>
+
+<p>If you have Auto Sync disabled, you’ll need to export your invoices, along with your expense reports, manually. Follow these three simple steps:</p>
+<ol>
+  <li>Filter Invoices: From your Reports page, use filters to find the invoices you want to export.</li>
+  <li>Select Invoices: Pick the invoices ready for export.</li>
+  <li>Export to NetSuite: Click <strong>Export to NetSuite</strong> in the top right-hand corner.</li>
+</ol>
+
+<p>When exporting to NetSuite, we match the recipient’s email address on the invoice to a customer record in NetSuite, meaning each customer in NetSuite must have an email address in their profile. If we can’t find a match, we’ll create a new customer in NetSuite.</p>
+
+<p>Once exported, the invoice will appear in the Accounts Receivable account you selected during your NetSuite Export configuration.</p>
+
+<h2 id="updating-the-status-of-an-invoice-to-paid">Updating the status of an invoice to “paid”</h2>
+
+<p>When you mark an invoice as “Paid” in Expensify, this status will automatically update in NetSuite. Similarly, if the invoice is marked as “Paid” in NetSuite, it will sync with Expensify. The payment will be reflected in the Collection account specified in your Advanced Settings Configuration.</p>
+
+<h2 id="download-netsuite-logs">Download NetSuite Logs</h2>
+
+<p>Sometimes, we might need more details from you to troubleshoot issues with your NetSuite connection. Providing the NetSuite web services usage logs is incredibly useful.</p>
+
+<p>Here’s how you can send them to us:</p>
+<ol>
+  <li><strong>Generate the Logs:</strong> Start by trying to export a report from your system. This action will create the most recent logs that we require.</li>
+  <li><strong>Access Web Services Usage Logs:</strong> You can locate these logs in your NetSuite account. Just use the global search bar at the top of the page and type in “Web Services Usage Log.”</li>
+  <li><strong>Identify the Logs:</strong> Look for the most recent log entry. It should have “FAILED” under the STATUS column. Click on the two blue “view” links under the REQUEST and RESPONSE columns. These are the two .xml files we need to examine.</li>
+</ol>
+
+<p>Send these two files to your Account Manager or Concierge so we can continue troubleshooting!</p>
+
+<details>
+  <summary id="faq">FAQ</summary>
+
+  <h2 id="how-does-auto-sync-work-with-reimbursed-reports">How does Auto Sync work with reimbursed reports?</h2>
+
+  <p>If a report is reimbursed via ACH or marked as reimbursed in Expensify and then exported to NetSuite, the report is automatically marked as paid in NetSuite during the next sync.</p>
+
+  <p>If a report is exported to NetSuite and then marked as paid in NetSuite, the report is automatically marked as reimbursed in Expensify during the next sync.</p>
+
+  <h2 id="if-i-enable-auto-sync-what-happens-to-existing-approved-and-reimbursed-reports">If I enable Auto Sync, what happens to existing approved and reimbursed reports?</h2>
+
+  <p>If you previously had Auto Sync disabled but want to allow that feature to be used going forward, you can safely turn it on without affecting existing reports. Auto Sync will only take effect for reports created after enabling that feature.</p>
+
+  <h2 id="why-are-some-of-my-customers-not-importing-from-netsuite">Why are some of my customers not importing from NetSuite?</h2>
+
+  <p>If only part of your customer list is importing from NetSuite to Expensify, ensure your page size is set to 1000 for importing customers and vendors:</p>
+  <ol>
+    <li>Navigate to <strong>Setup &gt; Integration &gt; Web Services Preferences &gt; Search Page Size</strong></li>
+    <li>Adjust this setting to 1000</li>
+    <li>Sync your connection again under <strong>Settings &gt; Workspaces &gt; Group &gt; Workspace Name &gt; Connections</strong></li>
+  </ol>
+
+  <p>Additionally, ensure the “Company Name” field is completed for each customer profile; otherwise, they won’t import into the Group Workspace.</p>
+
+  <h2 id="why-arent-all-my-categories-pulling-into-expensify-from-netsuite">Why aren’t all my Categories pulling into Expensify from NetSuite?</h2>
+
+  <p>If you’re having trouble importing your Categories, you’ll want to start by checking that they are set up in NetSuite as actual Expense Categories, not General Ledger accounts:</p>
+  <ul>
+    <li>Log into NetSuite as an administrator and go to <strong>Setup &gt; Accounting &gt; Expense Categories</strong></li>
+    <li>A list of Expense Categories should be available</li>
+    <li>If no Expense Categories are visible click on “New” to create new Expense Categories</li>
+  </ul>
+
+  <p>If you have confirmed that your categories are set as Expense Categories in NetSuite and they still aren’t importing to Expensify, make sure that the subsidiary of the Expense Category matches the subsidiary selected in your connection settings.</p>
+
+</details>
+
+            </div>
+            
+        </div>
+
+        <!-- Concierge button at the bottom of the page -->
+        
+
+
+
+        <div class="get-help">
+            <h2 class="title with-margin">Didn't find what you were looking for?</h2>
+            <p class="description">Concierge is here to answer all your questions.</p>
+            <a href="https://dev.new.expensify.com:8082/concierge" target="_blank">
+                <div class="submit-button">
+                    <button class="success">Send a message</button>
+                </div>
+            </a>
+        </div>
+
+        <div id="footer">
+            <div class="page-footer">
+    <div class="page-footer__wrapper">
+        <div class="columns">
+            <div class="column">
+                <h3>Features</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/expense-management" alt="Expense Management" target="_blank">Expense Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/spend-management" alt="Spend Management" target="_blank">Spend Management</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/expense-reports" alt="Expense Reports" target="_blank">Expense Reports</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/company-credit-card" alt="Company Credit Card" target="_blank">Company Credit Card</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/receipt-scanning-app" alt="Receipt Scanning App" target="_blank">Receipt Scanning App</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/bills" alt="Bill Pay" target="_blank">Bill Pay</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/invoices" alt="Invoicing" target="_blank">Invoicing</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/payroll" alt="Payroll" target="_blank">Payroll</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/travel" alt="Travel" target="_blank">Travel</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Resources</h3>
+                <ul>
+                    <li>
+                        <a href="https://use.expensify.com/accountants" alt="ExpensifyApproved!" target="_blank">ExpensifyApproved!</a>
+                    </li>
+
+                    <li>
+                        <a href="https://use.expensify.com/press-kit" alt="Press Kit" target="_blank">Press Kit</a>
+                    </li>
+                    <li>
+                        <a href="https://use.expensify.com/support" alt="Support" target="_blank">Support</a>
+                    </li>
+                    <li>
+                        <a href="https://help.expensify.com/" alt="ExpensifyHelp" target="_blank">ExpensifyHelp</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/terms" alt="Terms" target="_blank">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.com/privacy" alt="Privacy" target="_blank">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Learn more</h3>
+                <ul>
+                    <li>
+                        <a href="https://we.are.expensify.com/how-we-got-here" alt="About Expensify" target="_blank">About Expensify</a>
+                    </li>
+                    <li>
+                        <a href="https://blog.expensify.com/" alt="Blog" target="_blank">Blog</a>
+                    </li>
+                    <li>
+                        <a href="https://we.are.expensify.com/" alt="Jobs" target="_blank">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="https://www.expensify.org" alt="Expensify.org" target="_blank">Expensify.org</a>
+                    </li>
+                    <li>
+                        <a href="https://ir.expensify.com" alt="Investor Relations" target="_blank">Investor Relations</a>
+                    </li>
+                </ul>
+
+                <div class="page-footer__social-icons">
+                    <a href="https://we.are.expensify.com/podcast" class="social-media-link expensicons expensicons-podcast">
+                        <img src="/assets/images/social-podcast.svg" alt="Podcast" width="24" height="24">
+                    </a>
+                    <a href="https://www.twitter.com/expensify" class="social-media-link expensicons expensicons-twitter" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-twitter.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.instagram.com/expensify" class="social-media-link expensicons expensicons-instagram" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-instagram.svg" alt="Instagram" width="24" height="24">
+                    </a>
+                    <a href="https://www.facebook.com/expensify" class="social-media-link expensicons expensicons-facebook" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-facebook.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                    <a href="http://www.linkedin.com/company/expensify" class="social-media-link expensicons expensicons-linkedin" target="_blank" rel="noreferer noopener">
+                        <img src="/assets/images/social-linkedin.svg" alt="LinkedIn" width="24" height="24">
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Get Started</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.expensify.com" alt="Create A New Account" target="_blank">Create A New Account</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.expensify.com" alt="Log In" target="_blank">Log In</a>
+                    </li>
+                </ul>
+
+                <p id="footer-copywrite-date" class="page-footer__fine-print"></p>
+            </div>
+        </div>
+
+        <p class="page-footer__fine-print">The Expensify Visa® Commercial Card is issued by The Bancorp Bank, N.A., Member FDIC, pursuant to a license from Visa U.S.A. Inc. and may not be used at all merchants that accept Visa cards. Apple® and the Apple logo® are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC.</p>
+
+        <div class="page-footer__logo">
+            <img src="/assets/images/expensify-footer-logo.svg" alt="Expensify" />
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>
